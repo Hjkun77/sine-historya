@@ -1,0 +1,14 @@
+{
+  "name": "sine-historya",
+  "version": "1.0.0",
+  "description": "Inya de Vera's thesis project, an informative website that promotes Filipino movies, in partial fulfillment of AB Information Design",
+  "main": "index.html",
+  "scripts": {
+    "test": "live-server"
+  },
+  "keywords": [
+    "thesis"
+  ],
+  "author": "UXSociety",
+  "license": "ISC"
+}
