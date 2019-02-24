@@ -177,6 +177,7 @@ nav {
 
 #browse-by {
 	margin: auto;
+	margin-bottom: 60px;
 	padding: 30px 60px;
 }
 
@@ -204,8 +205,16 @@ nav {
 	text-align: center;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-
 	color: #000000;
+}
+
+.grid-browse {
+  	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr auto;
+  	grid-gap: 20px;
+  	-webkit-box-align: start;
+  	    -ms-flex-align: start;
+  	        align-items: start;
 }
 
 /*About*/
@@ -362,4 +371,42 @@ nav {
 	background: #FFFFFF;
 	height: 220px;
 	padding: 8px 16px;
+}
+
+
+/* Footer */
+footer {
+	background: #000000;
+	padding: 45px 60px;
+	color: white;
+}
+
+.footer-details {
+	width: 30%;
+}
+
+.footer-details h3 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #E9F4ED;
+	margin-bottom: 8px;
+}
+
+.footer-details p {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 23px;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.footer-details h6 {
+	font-family: 'Libre Franklin', sans-serif;
+	line-height: 22px;
+	font-size: 13px;
+	text-align: center;
 }

@@ -10,5 +10,6 @@
     "thesis"
   ],
   "author": "UXSociety",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

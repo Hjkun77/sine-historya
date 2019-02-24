@@ -88,6 +88,11 @@ th {
 a {
   text-decoration: none;
   cursor: pointer;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .flex {
@@ -119,4 +124,8 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.none {
+  display: none;
 }
