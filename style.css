@@ -55,7 +55,7 @@ nav {
 /* FILM CARDS */
 #card-section {
 	margin: auto;
-	padding: 0px 20px 20px 20px;
+	padding: 30px 60px;
 }
 
 .card-section-caption {
@@ -79,21 +79,37 @@ nav {
 }
 
 .card-img {
-	padding: 20px 17px 0px 17px;
+	width: 100%;
+	margin-bottom: 16px;
 }
 
 .card {
-  	padding: 10px 17px 150px 17px;
-  	position: relative;
+	padding: 10px 17px 150px 17px;
+	position: relative;
 }
 
 .card-genre {
-	font-size: 14px;
 	font-family: 'Libre Franklin', sans-serif;
-	letter-spacing: 1px;
+	font-size: 10px;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+.american {
 	color: #24346D;
+}
+
+.martial {
+	color: #A50014;
+}
+
+.spanish {
+	color: #726706;
+}
+
+.japanese {
+	color: #CE3000;
 }
 
 .card-title {
@@ -104,6 +120,7 @@ nav {
 
 .bottom-card {
 	position: absolute;
+	padding-bottom: 16px;
 	bottom: 0;
 }
 
@@ -142,18 +159,53 @@ nav {
 }
 
 .card-tags {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 14px;
-	letter-spacing: 1px;
+	font-family: 'Libre Franklin',sans-serif;
+	font-size: 10px;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	padding: 0 70px 20px 0;
 	color: #6C6C6C;
-	float: left;
+}
+
+.card-tags span {
+	margin-right: 15px;
 }
 
 .card-stream {
 	width: 10%;
 	float: right;
+}
+
+#browse-by {
+	margin: auto;
+	padding: 30px 60px;
+}
+
+#browse-by h1 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+
+.browse-card {
+	height: 270px;
+	background: #C4C4C4;
+	border-radius: 9px;
+	padding: 90px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: #000000;
 }
 
 /*About*/
