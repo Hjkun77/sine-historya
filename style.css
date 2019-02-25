@@ -4,33 +4,114 @@ html {
 
 /* TOPBAR */
 
-/**.arrow {
+#topbar-section {
+
+}
+
+.arrow {
 	box-sizing: border-box;
-=======
-nav {
+}
+
+.navbar {
+	overflow: hidden;
+	padding-right: 12%;
 	background-color: #000;
-	padding-top: 34px;
-	padding-bottom: 56px;
 }
 
-.navbar ul {
-  	list-style-type: none;
-  	margin: 0px;
-  	padding: 0;
-}
-
-.navbar li {
+.navbar a {
+	color: #D6EADE;
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 20px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: bold;
 	float: right;
-	padding-right: 15%;
+	padding: 30px 100px 30px 100px;
 }
 
-.navbar a {
+.dropdown {
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .dropdown-btn {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
 	color: #D6EADE;
+	padding: 30px 5px 30px 5px;
+	background-color: #000;
+	font-family: 'Libre Franklin', sans-serif;
+	margin: 0;
+}
+
+.dropdown .about-btn {
+	padding-left: 80px;
+}
+
+.dropdown .watch-btn {
+	padding-right: 80px;
+	padding-left: 
+}
+
+.content {
+	display: none;
+	position: absolute;
+	background-color: #E9F4ED;
+	padding: 20px 40px 20px 30px;
+	width: 100%;
+	z-index: 1;
+}
+
+/* about content */
+.about-content .about-links {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	float: none;
+	color: #000;
+	text-align: left;
+	display: block;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+}
+
+.about-content .contact {
+	color: #6C6C6C;
+}
+
+/* watch content */
+.watch-content .watch-links {
+	display: block;
+	text-align: left;
+	float: none;
+	padding: 20px 0px 0px 30px;
+}
+
+.watch-content ul {
+	font-family: 'Libre Franklin', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	list-style-type: disc;
+	font-size: 13px;
+}
+
+.watch-content lh {
+	font-weight: bold;
+	color: #000;
+	font-size: 15px;
+}
+
+.watch-content li {
+	font-size: 13px;
+}
+
+/* display content */
+.dropdown:hover .content {
+	display: block;
 }
 
 .arrow {
@@ -48,63 +129,13 @@ nav {
 	display: inline-block;
 	margin-left: 5px;
 	margin-bottom: 5px;
-}*/
+}
 
 /* COVER PHOTO */
 
 #cover-section {
-	background-color: #333333;
-	padding: 100px 100px 50px 100px;
-}
-
-.cover-text {
-}
-
-.cover-text h1 {
-	font-family: 'Libre Baskerville', serif;
-	font-size: 40px;
-	font-weight: bold;
-	color: #D6EADE;
-	padding-bottom: 10px;
-}
-
-.cover-text p {
-	font-family: 'Libre Baskerville', serif;
-	font-size: 14px;
-	font-weight: normal;
-	color: #D6EADE;
-}
-
-.cover-buttons {
-	padding: 290px 0 0 0;
-	text-align: center;
-}
-
-.cover-buttons h3 {
-	font-family: 'Libre Franklin', sans-serif;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	font-size: 18px;
-	font-weight: bold;
-	color: #D6EADE;
-	padding-bottom: 30px;
-}
-
-.cover-buttons button {
-	font-family: 'Libre Franklin', sans-serif;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-size: 15px;
-	background-color: #D6EADE;
-	border: none;
-	padding: 13px 0 13px 0;
-	margin: 0 30px 0 30px;
-	width: 250px;
-	color: #000;
-	border-radius: 30px;
 	background: #333333;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding: 90px 0 60px 0;
 	color: #D6EADE;
 }
 
@@ -117,16 +148,19 @@ nav {
 	font-family: 'Libre Baskerville', sans-serif;
 	font-weight: bold;
 	font-size: 40px;
+	padding-bottom: 10px;
+	margin-left: -100px;
 }
 
 .home-landing p {
 	font-family: 'Libre Baskerville', sans-serif;
 	font-size: 15px;
+	margin-left: -100px;
 }
 
 .home-button {
-	margin-top: 55vh;
-	width: 35%;
+	margin-top: 40vh;
+	width: 55%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -139,12 +173,13 @@ nav {
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	color: #D6EADE;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .home-button button {
 	background: #D6EADE;
-	padding: 8px 16px;
+	padding: 13px 16px;
+	margin: 0 15px 0 15px;
 	border: 2px solid #D6EADE;
 	border-radius: 55px;
 	font-family: 'Libre Franklin', sans-serif;
@@ -153,9 +188,10 @@ nav {
 	text-align: center;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-
 	color: #000000;
+	width: 270px;
 }
+
 /* FILM CARDS */
 #card-section {
 	margin: auto;
@@ -188,7 +224,7 @@ nav {
 }
 
 .card {
-	padding: 10px 17px 150px 17px;
+	padding: 20px 17px 150px 17px;
 	position: relative;
 }
 
@@ -205,15 +241,19 @@ nav {
 }
 
 .martial {
-	color: #A50014;
+	color: #992603;
 }
 
 .spanish {
-	color: #726706;
+	color: #E0831E;
 }
 
 .japanese {
 	color: #CE3000;
+}
+
+.post {
+	color: #256B63;
 }
 
 .card-title {
