@@ -424,6 +424,67 @@ nav {
 	padding: 8px 16px;
 }
 
+/*Historical highlights */
+.highlights-nav {
+	background: white;
+}
+
+.highlights-nav li {
+	width: 100%;
+	text-align: center;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 11px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 24px;
+}
+
+.spanish-nav {
+	border-bottom: 8px solid #E0831E;
+}
+
+.american-nav {
+	border-bottom: 8px solid #24346D;
+}
+
+.japanese-nav {
+	border-bottom: 8px solid #CE3000;
+}
+
+.ML-nav {
+	border-bottom: 8px solid #A50014;
+}
+
+.postML-nav {
+	border-bottom: 8px solid #256B63;
+}
+
+
+#highlight-spanish {
+	background: #E0831E;
+	padding: 60px;
+}
+
+#highlight-american {
+	background: #24346D;;
+	padding: 60px;
+}
+
+#highlight-japanese {
+	background: #CE3000;
+	padding: 60px;
+}
+
+#highlight-martialLaw {
+	background: #A50014;
+	padding: 60px;
+}
+
+#highlight-postMartialLaw {
+	background: #256B63;
+	padding: 60px;
+}
 
 /* Footer */
 footer {

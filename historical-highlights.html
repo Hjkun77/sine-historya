@@ -29,86 +29,15 @@
       </ul>
     </div>
   </nav>
+  <ul class="highlights-nav flex">
+    <li class="spanish-nav">Spanish Colonization</li>
+    <li class="american-nav">American Colonial Period</li>
+    <li class="japanese-nav">Japanese Occupation</li>
+    <li class="ML-nav">Martial Law</li>
+    <li class="postML-nav">Post Martial Law</li>
+  </ul>
 
-  <section id="cover-section">
-    <div class="home-landing">
-      <h1>welcome 2 sine historya yay</h1>
-      <p>short description lorem impsum hohoohoho</p>
-      <div class="flex justifyCenter home-button flexColumn">
-        <h2>browse by</h2>
-        <div class="flex spaceBetween">
-          <button><a href="historical-highlights.html">History Highlights</a></button>
-          <button>Subject</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="card-section">
-
-    <!-- LATEST RELEASE -->
-
-    <h1 class="card-section-caption">Latest Release</h1>
-    <div class="grid">
-      <article>
-        <div class="card">
-          <img class="card-img" src="assets/movies/goyo.jpg">
-          <p class="card-genre american">American Colonial Period</p>
-          <h3 class="card-title">Goyo: Ang Batang Heneral</h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Jerrold Tarog</p>
-            <p class="card-info">2018 | 2hr 35 min</p>
-            <p class="card-rating">mtrcb</p>
-            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <img class="card-stream" src="assets/icons/netflix.png"/>
-          </div>
-        </div>
-      </article>
-
-      <article>
-        <div class="card">
-          <img class="card-img" src="assets/movies/liway.jpg">
-          <p class="card-genre martial">Martial Law</p>
-          <h3 class="card-title">Liway</h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Kip Oebanda</p>
-            <p class="card-info">2018 | 2hr 35 min</p>
-            <p class="card-rating">mtrcb</p>
-            <p class="card-tags"><span>Family Dynamics</span><span>Human Rights</span><span>Women</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <img class="card-stream" src="assets/icons/netflix.png"/>
-          </div>
-        </div>
-      </article>
-
-      <article>
-        <div class="card">
-          <img class="card-img" src="assets/movies/luna.jpg">
-          <p class="card-genre american">American Colonial Period</p>
-          <h3 class="card-title">Heneral Luna</h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Jerrold Tarog</p>
-            <p class="card-info">2015 | 1hr 58 min</p>
-            <p class="card-rating">R-13</p>
-            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <img class="card-stream" src="assets/icons/netflix.png"/>
-          </div>
-        </div>
-      </article>
-
-    </div>
-
-    <!-- GOLDEN AGE -->
-
-    <h1 class="card-section-caption">Golden Age of Cinema (70s and 80s)</h1>
+  <section id="highlight-spanish">
     <div class="grid">
       <article>
         <div class="card">
@@ -165,10 +94,51 @@
       </article>
 
     </div>
+  </section>
 
-    <!-- #NEVERFORGET -->
+  <section id="highlight-american">
+    <div class="grid">
+      <article>
+        <div class="card">
+          <img class="card-img" src="assets/movies/goyo.jpg">
+          <p class="card-genre american">American Colonial Period</p>
+          <h3 class="card-title">Goyo: Ang Batang Heneral</h3>
 
-    <h1 class="card-section-caption">#NeverForget</h1>
+          <div class="bottom-card">
+            <p class="card-director">Jerrold Tarog</p>
+            <p class="card-info">2018 | 2hr 35 min</p>
+            <p class="card-rating">mtrcb</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="card">
+          <img class="card-img" src="assets/movies/luna.jpg">
+          <p class="card-genre american">American Colonial Period</p>
+          <h3 class="card-title">Heneral Luna</h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Jerrold Tarog</p>
+            <p class="card-info">2015 | 1hr 58 min</p>
+            <p class="card-rating">R-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
+
+
+    </div>
+  </section>
+
+  <section id="highlight-japanese">
     <div class="grid">
       <article>
         <div class="card">
@@ -208,36 +178,50 @@
     </div>
   </section>
 
-  <section id="browse-by">
-    <h1>browse by</h1>
-    <div class="grid-browse">
-      <div onclick="browsePrevious()" class="none" style="margin: auto; cursor: pointer" id="browse-previous">
-        <svg width="22" height="67" viewBox="0 0 22 67" fill="none" xmlns="http://www.w3.org/2000/svg" transform="scale(-1,1)">
-          <path d="M2 1L20 35.0476L2 66" stroke="#6C6C6C" stroke-width="3.5" stroke-linejoin="round"/>
-        </svg>
-      </div>
-      <div class="browse-card flex alignCenter justifyCenter" id="browse-title">
-        Title
-      </div>
-      <div class="browse-card flex alignCenter justifyCenter none" id="browse-stream">
-        Streaming Website
-      </div>
-      <div class="browse-card flex alignCenter justifyCenter" id="browse-highlights">
-        History Highlights
-      </div>
-      <div class="browse-card flex alignCenter justifyCenter none" id="browse-rating">
-        MTRCB Rating
-      </div>
-      <div class="browse-card flex alignCenter justifyCenter" id="browse-topics">
-        Topics
-      </div>
-      <div onclick="browseNext()"  style="display: block; margin: auto; cursor: pointer" id="browse-next">
-        <svg width="22" height="67" viewBox="0 0 22 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M2 1L20 35.0476L2 66" stroke="#6C6C6C" stroke-width="3.5" stroke-linejoin="round"/>
-        </svg>
-      </div>
+  <section id="highlight-martialLaw">
+    <div class="grid">
+      <article>
+        <div class="card">
+          <img class="card-img" src="assets/movies/liway.jpg">
+          <p class="card-genre martial">Martial Law</p>
+          <h3 class="card-title">Liway</h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Kip Oebanda</p>
+            <p class="card-info">2018 | 2hr 35 min</p>
+            <p class="card-rating">mtrcb</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>Human Rights</span><span>Women</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
+
+  <section id="highlight-postMartialLaw">
+    <div class="grid">
+      <article>
+        <div class="card">
+          <img class="card-img" src="assets/movies/liway.jpg">
+          <p class="card-genre martial">Martial Law</p>
+          <h3 class="card-title">Lway</h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Kip Oebanda</p>
+            <p class="card-info">2018 | 2hr 35 min</p>
+            <p class="card-rating">mtrcb</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>Human Rights</span><span>Women</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
 
   <footer>
     <div class="flex spaceBetween" style="margin-bottom: 16px">
@@ -260,7 +244,6 @@
     </div>
   </footer>
 
-  <script src="jquery.min.js" charset="utf-8"></script>
   <script src="script.js" charset="utf-8"></script>
 </body>
 </html>
