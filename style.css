@@ -34,7 +34,7 @@ html {
 	overflow: hidden;
 }
 
-.dropdown .dropdown-btn {
+.dropdown-btn {
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -48,15 +48,6 @@ html {
 	margin: 0;
 }
 
-.dropdown .about-btn {
-	padding-left: 80px;
-}
-
-.dropdown .watch-btn {
-	padding-right: 80px;
-	padding-left: 
-}
-
 .content {
 	display: none;
 	position: absolute;
@@ -67,7 +58,7 @@ html {
 }
 
 /* about content */
-.about-content .about-links {
+.about-content a {
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 15px;
 	font-weight: bold;
@@ -84,11 +75,30 @@ html {
 }
 
 /* watch content */
-.watch-content .watch-links {
+.watch-content {
+	
+}
+
+.column-left a {
 	display: block;
 	text-align: left;
 	float: none;
 	padding: 20px 0px 0px 30px;
+	font-size: 13px;
+}
+
+.column-center a {
+	font-size: 13px;
+	font-weight: normal;
+	color: #000;
+	display: block;
+	text-align: left;
+	float: none;
+	padding: 20px 0px 0px 30px;
+	list-style-type: none;
+	border: 5px solid #D6EADE;
+	background-color: #D6EADE;
+	border-width: 0px 0px 10px 10px;
 }
 
 .watch-content ul {
@@ -105,8 +115,18 @@ html {
 	font-size: 15px;
 }
 
-.watch-content li {
-	font-size: 13px;
+/* 3 column divider for watch dropdown */
+.column-left {
+	float: left;
+	width: 33%;
+}
+.column-right {
+	float: right;
+	width: 33%;
+}
+.column-center {
+	display: inline-block;
+	width: 33%;
 }
 
 /* display content */
