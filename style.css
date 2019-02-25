@@ -575,7 +575,7 @@ html {
 
 .feature-left hr {
 	border: 4px solid #24346D;
-	margin: 5px 0 15px 0;
+	margin: 8px 0 15px 0;
 	width: 230px;
 }
 
@@ -636,6 +636,27 @@ html {
 	text-transform: uppercase;
 	border-radius: 55px;
 	width: 80%;
+}
+
+/* Women-Human Rights */
+#women-humanrights {
+}
+
+.whr {
+	background-color: #E9F4ED;
+	padding: 40px 60px 50px 60px;
+}
+
+.whr h3 {
+	font-family: Libre Baskerville, sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	padding-bottom: 20px;
+}
+
+.whr-card-wrapper {
+	margin: auto;
+	width: 90%;
 }
 
 /* Footer */
