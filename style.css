@@ -49,9 +49,60 @@ nav {
 /* COVER PHOTO */
 
 #cover-section {
-
+	background: #333333;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: #D6EADE;
 }
 
+.home-landing {
+	width: 75%;
+	margin: auto;
+}
+
+.home-landing h1 {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.home-landing p {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 15px;
+}
+
+.home-button {
+	margin-top: 55vh;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-button h2 {
+	font-family: 'Libre Franklin',sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #D6EADE;
+	margin-bottom: 30px;
+}
+
+.home-button button {
+	background: #D6EADE;
+	padding: 8px 16px;
+	border: 2px solid #D6EADE;
+	border-radius: 55px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+
+	color: #000000;
+}
 /* FILM CARDS */
 #card-section {
 	margin: auto;
