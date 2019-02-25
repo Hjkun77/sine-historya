@@ -6,12 +6,44 @@ html {
 
 /**.arrow {
 	box-sizing: border-box;
+=======
+nav {
+	background-color: #000;
+	padding-top: 34px;
+	padding-bottom: 56px;
+}
+
+.navbar ul {
+  	list-style-type: none;
+  	margin: 0px;
+  	padding: 0;
+}
+
+.navbar li {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	float: right;
+	padding-right: 15%;
+}
+
+.navbar a {
+	color: #D6EADE;
+}
+
+.arrow {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	height: 10px;
 	width: 10px;
 	border-style: solid;
 	border-color: #fff;
 	border-width: 0px 1px 1px 0px;
-	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	-webkit-transition: border-width 150ms ease-in-out;
 	transition: border-width 150ms ease-in-out;
 	display: inline-block;
 	margin-left: 5px;
@@ -70,12 +102,66 @@ html {
 	width: 250px;
 	color: #000;
 	border-radius: 30px;
+=======
+	background: #333333;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: #D6EADE;
 }
 
+.home-landing {
+	width: 75%;
+	margin: auto;
+}
+
+.home-landing h1 {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.home-landing p {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 15px;
+}
+
+.home-button {
+	margin-top: 55vh;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-button h2 {
+	font-family: 'Libre Franklin',sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #D6EADE;
+	margin-bottom: 30px;
+>>>>>>> 2a508537b2230b6232b212577f8d00363ee6e01f
+}
+
+.home-button button {
+	background: #D6EADE;
+	padding: 8px 16px;
+	border: 2px solid #D6EADE;
+	border-radius: 55px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+
+	color: #000000;
+}
 /* FILM CARDS */
 #card-section {
 	margin: auto;
-	padding: 0px 20px 20px 20px;
+	padding: 30px 60px;
 }
 
 .card-section-caption {
@@ -85,11 +171,13 @@ html {
 	padding: 30px 0 20px 10px;
 }
 
-.grid { 
+.grid {
   	display: grid;
   	grid-template-columns: repeat(3, 1fr);
   	grid-gap: 20px;
-  	align-items: start;
+  	-webkit-box-align: start;
+  	    -ms-flex-align: start;
+  	        align-items: start;
 }
 
 .grid > article {
@@ -97,21 +185,37 @@ html {
 }
 
 .card-img {
-	padding: 20px 17px 0px 17px;
+	width: 100%;
+	margin-bottom: 16px;
 }
 
 .card {
-  	padding: 10px 17px 150px 17px;
-  	position: relative;
+	padding: 10px 17px 150px 17px;
+	position: relative;
 }
 
 .card-genre {
-	font-size: 14px;
 	font-family: 'Libre Franklin', sans-serif;
-	letter-spacing: 1px;
+	font-size: 10px;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+.american {
 	color: #24346D;
+}
+
+.martial {
+	color: #A50014;
+}
+
+.spanish {
+	color: #726706;
+}
+
+.japanese {
+	color: #CE3000;
 }
 
 .card-title {
@@ -122,6 +226,7 @@ html {
 
 .bottom-card {
 	position: absolute;
+	padding-bottom: 16px;
 	bottom: 0;
 }
 
@@ -160,13 +265,15 @@ html {
 }
 
 .card-tags {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 14px;
-	letter-spacing: 1px;
+	font-family: 'Libre Franklin',sans-serif;
+	font-size: 10px;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	padding: 0 70px 20px 0;
 	color: #6C6C6C;
-	float: left;
+}
+
+.card-tags span {
+	margin-right: 15px;
 }
 
 .card-stream {
@@ -174,4 +281,238 @@ html {
 	float: right;
 }
 
-/* */
+#browse-by {
+	margin: auto;
+	margin-bottom: 60px;
+	padding: 30px 60px;
+}
+
+#browse-by h1 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+
+.browse-card {
+	height: 270px;
+	background: #C4C4C4;
+	border-radius: 9px;
+	padding: 90px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.grid-browse {
+  	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr auto;
+  	grid-gap: 20px;
+  	-webkit-box-align: start;
+  	    -ms-flex-align: start;
+  	        align-items: start;
+}
+
+/*About*/
+.about-thesis {
+	background: #C4C4C4;
+	padding: 60px 24px;
+	margin-bottom: 30px;
+}
+
+.about-thesis h1 {
+	font-weight: bold;
+	font-size: 35px;
+	width: 25%;
+	font-family: 'Libre Baskerville', sans-serif;
+	color: #000000;
+	padding-bottom: 15px;
+	border-bottom: 5px solid #000000;
+	margin-bottom: 40px;
+	text-transform: capitalize;
+}
+
+.about-thesis h2 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 16px;
+}
+
+.about-thesis p {
+	font-family: 'Libre Baskerville', sans-serif;
+	line-height: 26px;
+	font-size: 15px;
+	color: #000000;
+}
+
+.about-mission {
+	padding: 15px 24px;
+	margin-bottom: 30px;
+}
+
+.about-mission h1 {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #000000;
+	margin-bottom: 30px;
+}
+
+.about-card:first-child {
+	margin-right: 20px;
+}
+
+.about-card {
+	width: 100%;
+	height: 100%;
+	background: #C4C4C4;
+	padding: 30px;
+}
+
+.about-card h2 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.about-card p {
+	font-family: 'Libre Baskerville',sans-serif;
+	line-height: 32px;
+	font-size: 18px;
+	width: 210px;
+	margin-top: 30px;
+	margin-bottom: 120px;
+	color: #000000;
+}
+
+.about-card h6 {
+	text-align: center;
+	margin-left: auto;
+	font-family: 'Libre Franklin',sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	padding-bottom: 2px;
+	border-bottom: 3px solid #000000;
+	color: #000000;
+	width: 35%;
+}
+
+/*About - Contact Us */
+.contact-us {
+	padding: 15px 24px;
+	margin-bottom: 60px;
+}
+
+.contact-us h1 {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #000000;
+	margin-bottom: 30px;
+}
+
+.contact-details {
+	font-family: 'Libre Baskerville', sans-serif;
+	line-height: 32px;
+	font-size: 18px;
+	color: #000000;
+}
+
+.contact-details p {
+	margin-bottom: 30px;
+}
+
+.contact-details ul.dashed > li {
+	text-indent: -5px;
+}
+
+.contact-details ul.dashed > li:before {
+	content: "-";
+ text-indent: -5px;
+}
+
+.formGroup {
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+.formGroup label {
+	font-family: 'Libre Franklin',sans-serif;
+	line-height: 31px;
+	font-size: 18px;
+	color: #000000;
+}
+
+.formGroup input {
+	width: 100%;
+	font-family: 'Libre Franklin',sans-serif;
+	background: #FFFFFF;
+	height: 40px;
+	padding: 8px 16px;
+}
+
+.formGroup textarea {
+	width: 100%;
+	font-family: 'Libre Franklin',sans-serif;
+	background: #FFFFFF;
+	height: 220px;
+	padding: 8px 16px;
+}
+
+
+/* Footer */
+footer {
+	background: #000000;
+	padding: 45px 60px;
+	color: white;
+}
+
+.footer-details {
+	width: 30%;
+}
+
+.footer-details h3 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #E9F4ED;
+	margin-bottom: 8px;
+}
+
+.footer-details p {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 23px;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.footer-details h6 {
+	font-family: 'Libre Franklin', sans-serif;
+	line-height: 22px;
+	font-size: 13px;
+	text-align: center;
+}
