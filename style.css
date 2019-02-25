@@ -537,6 +537,106 @@ html {
 	padding: 8px 16px;
 }
 
+/* Learn Home */
+.feature-container {
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.feature-container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.feature-column {
+	float: left;
+}
+
+.feature-left {
+	padding-left: 60px;
+	padding-right: 15px;
+	width: 65%;
+}
+
+.feature-left img {
+	width: 100%;
+	padding-bottom: 30px;
+	padding-top: 40px;
+}
+
+.feature-left .feature-tag {
+	font-family: 'Libre Franklin', serif;
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.feature-left hr {
+	border: 4px solid #24346D;
+	margin: 5px 0 15px 0;
+	width: 230px;
+}
+
+.feature-left p {
+	font-family: Libre Baskerville, sans-serif;
+	font-weight: normal;
+	line-height: 26px;
+	font-size: 15px;
+}
+
+.feature-left h1 {
+	font-family: Libre Baskerville, sans-serif;
+	font-weight: bold;
+	padding-bottom: 25px;
+	font-size: 36px;
+}
+
+.feature-right {
+	padding-left: 15px;
+	padding-right: 60px;
+	width: 35%;
+}
+
+.feature-right h3 {
+	padding-top: 40px;
+	padding-left: 10px;
+	font-family: Libre Franklin, serif;
+	font-weight: bold;
+	font-size: 23px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.feature-card {
+	margin-top: 30px;
+	padding-bottom: 50px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.feature-card p {
+	font-family: Libre Baskerville, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.feature-right button {
+	margin-top: 30px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 10px 15px 10px 15px;
+	background-color: #C4C4C4;
+	color: #fff;
+	font-family: Libre Franklin, serif;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border-radius: 55px;
+	width: 80%;
+}
 
 /* Footer */
 footer {
