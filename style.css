@@ -4,33 +4,7 @@ html {
 
 /* TOPBAR */
 
-#topbar-section {
-	background-color: #000;
-	padding-top: 34px;
-	padding-bottom: 56px;
-}
-
-.topbar ul {
-  	list-style-type: none;
-  	margin: 0px;
-  	padding: 0;
-}
-
-.topbar li {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 20px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-weight: bold;
-	float: right;
-	padding-right: 15%;
-}
-
-.topbar a {
-	color: #D6EADE;
-}
-
-.arrow {
+/**.arrow {
 	box-sizing: border-box;
 	height: 10px;
 	width: 10px;
@@ -42,12 +16,60 @@ html {
 	display: inline-block;
 	margin-left: 5px;
 	margin-bottom: 5px;
-}
+}*/
 
 /* COVER PHOTO */
 
 #cover-section {
-	
+	background-color: #333333;
+	padding: 100px 100px 50px 100px;
+}
+
+.cover-text {
+}
+
+.cover-text h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #D6EADE;
+	padding-bottom: 10px;
+}
+
+.cover-text p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #D6EADE;
+}
+
+.cover-buttons {
+	padding: 290px 0 0 0;
+	text-align: center;
+}
+
+.cover-buttons h3 {
+	font-family: 'Libre Franklin', sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	color: #D6EADE;
+	padding-bottom: 30px;
+}
+
+.cover-buttons button {
+	font-family: 'Libre Franklin', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 15px;
+	background-color: #D6EADE;
+	border: none;
+	padding: 13px 0 13px 0;
+	margin: 0 30px 0 30px;
+	width: 250px;
+	color: #000;
+	border-radius: 30px;
 }
 
 /* FILM CARDS */
@@ -60,7 +82,7 @@ html {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: bold;
 	font-size: 40px;
-	padding: 30px 0 20px 0;
+	padding: 30px 0 20px 10px;
 }
 
 .grid { 
