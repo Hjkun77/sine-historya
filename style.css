@@ -537,6 +537,7 @@ html {
 	padding: 8px 16px;
 }
 
+<<<<<<< HEAD
 /* Learn Home */
 .feature-container {
 	padding-top: 50px;
@@ -657,6 +658,100 @@ html {
 .whr-card-wrapper {
 	margin: auto;
 	width: 90%;
+=======
+/*Historical highlights */
+.highlights-nav {
+	background: white;
+}
+
+.highlights-nav a {
+	width: 100%;
+}
+
+.highlights-nav a li {
+	text-align: center;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 11px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 24px;
+}
+
+.highlights-nav li {
+	cursor: pointer
+}
+
+.spanish-nav {
+	border-bottom: 8px solid #E0831E;
+}
+
+.spanish-nav:hover, .spanish-active {
+	background: #E0831E;
+	color: white !important;
+}
+
+
+.american-nav {
+	border-bottom: 8px solid #24346D;
+}
+
+.american-nav:hover, .american-active {
+	background: #24346D;
+	color: white !important;
+}
+
+.japanese-nav {
+	border-bottom: 8px solid #CE3000;
+}
+
+.japanese-nav:hover, .japanese-active {
+	background: #CE3000;
+	color: white !important;
+}
+
+.ML-nav {
+	border-bottom: 8px solid #A50014;
+}
+
+.ML-nav:hover, .ml-active {
+	background: #A50014;
+	color: white !important;
+}
+
+.postML-nav {
+	border-bottom: 8px solid #256B63;
+}
+
+.postML-nav:hover, .postml-active {
+	background: #256B63;
+	color: white !important;
+}
+
+#highlight-spanish {
+	background: #E0831E;
+	padding: 60px;
+}
+
+#highlight-american {
+	background: #24346D;;
+	padding: 60px;
+}
+
+#highlight-japanese {
+	background: #CE3000;
+	padding: 60px;
+}
+
+#highlight-martialLaw {
+	background: #A50014;
+	padding: 60px;
+}
+
+#highlight-postMartialLaw {
+	background: #256B63;
+	padding: 60px;
+>>>>>>> 451540239ca8a98c6480fb6d1de779047ca288dd
 }
 
 /* Footer */
