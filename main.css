@@ -91,6 +91,10 @@ a {
   color: inherit;
 }
 
+button {
+  cursor: pointer;
+}
+
 a:hover {
   text-decoration: underline;
 }
