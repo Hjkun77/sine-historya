@@ -2,132 +2,31 @@ html {
 	background-color: #D6EADE;
 }
 
-/* NAV */
+/* TOPBAR */
 nav {
-	text-align: right;
-  	width: 100%;
-  	padding: 0 100px 0 0;
-  	margin: 0;
-  	position: relative;
-  	color: #D6EADE;
-  	background-color: #000;
-}
-
-nav ul {
 	background-color: #000;
-	list-style-type: none;
-	margin: 0;
+	padding-top: 34px;
+	padding-bottom: 56px;
 }
 
-nav ul .nav-items {
-  	display: inline-block;
+.navbar ul {
+  	list-style-type: none;
+  	margin: 0px;
+  	padding: 0;
 }
 
-nav ul li .nav-links {
-	display: block;
-	padding: 0px 0px;
-	margin: 25px 60px;
-	text-decoration: none;
-	font-family: Libre Franklin, serif;
+.navbar li {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 21px;
-	letter-spacing: 0.1em;
-
-}
-
-nav ul .nav-items:hover { /* JUST AN INDICATOR FOR THE NAV LINKS PADDING*/
-	background: #333333;
-}
-
-nav ul li a:hover {
-	text-decoration: none;
-}
-
-nav ul ul {
-	display: none;
-	background-color: #E9F4ED;
-	padding: 30px 30px 60px 30px;
-}
-
-nav ul li:hover > ul {
-	display: block;
-	width: 100%;
-  	position: absolute;
-  	top: 77px;
-  	left: 0px;
-  	text-align: left;
-}
-
-nav ul ul li {
-	padding: 8px 20px 8px 20px;
-	font-family: Libre Franklin, serif;
-	text-transform: uppercase;
-	font-weight: normal;
-	font-size: 13px;
-	letter-spacing: 0.1em;
-}
-
-nav ul ul lh {
-	color: #000;
-	font-family: Libre Franklin, serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 15px;
-	letter-spacing: 0.1em;
-}
-
-.column-left li a {
-	font-weight: normal;
-	font-size: 13px;
-	
-}
-
-.column-left li a:before {
-	content: "● ";
-}
-
-.first {
-	padding-top: 20px;
-}
-
-.column-center lh {
-	display: block;
-}
-
-.column-center li {
-	display: inline-block;
-}
-
-.column-center li a {
-	color: #000;
-	border: 7px solid #D6EADE;
-	border-radius: 9px;
-	background-color: #D6EADE;
-	padding: 0px 5px;
-}
-
-.column-right li a {
-	color: #000;
-}
-
-.arrow-right {
-	margin-top: -7px;
-	margin-bottom: -7px;
-}
-
-/* 3 column divider for watch dropdown */
-.column-left {
-	float: left;
-	width: 33%;
-}
-.column-right {
 	float: right;
-	width: 33%;
+	padding-right: 15%;
 }
-.column-center {
-	display: inline-block;
-	width: 33%;
+
+.navbar a {
+	color: #D6EADE;
 }
 
 .arrow {
@@ -151,7 +50,8 @@ nav ul ul lh {
 
 #cover-section {
 	background: #333333;
-	padding: 90px 0 60px 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	color: #D6EADE;
 }
 
@@ -164,19 +64,16 @@ nav ul ul lh {
 	font-family: 'Libre Baskerville', sans-serif;
 	font-weight: bold;
 	font-size: 40px;
-	padding-bottom: 10px;
-	margin-left: -100px;
 }
 
 .home-landing p {
 	font-family: 'Libre Baskerville', sans-serif;
 	font-size: 15px;
-	margin-left: -100px;
 }
 
 .home-button {
-	margin-top: 40vh;
-	width: 55%;
+	margin-top: 55vh;
+	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -189,13 +86,12 @@ nav ul ul lh {
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	color: #D6EADE;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .home-button button {
 	background: #D6EADE;
-	padding: 13px 16px;
-	margin: 0 15px 0 15px;
+	padding: 8px 16px;
 	border: 2px solid #D6EADE;
 	border-radius: 55px;
 	font-family: 'Libre Franklin', sans-serif;
@@ -204,10 +100,9 @@ nav ul ul lh {
 	text-align: center;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-	color: #000000;
-	width: 270px;
-}
 
+	color: #000000;
+}
 /* FILM CARDS */
 #card-section {
 	margin: auto;
@@ -218,7 +113,7 @@ nav ul ul lh {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: bold;
 	font-size: 40px;
-	padding: 30px 0 20px 10px;
+	padding: 30px 0 20px 0;
 }
 
 .grid {
@@ -240,7 +135,7 @@ nav ul ul lh {
 }
 
 .card {
-	padding: 20px 17px 150px 17px;
+	padding: 10px 17px 150px 17px;
 	position: relative;
 }
 
@@ -257,19 +152,15 @@ nav ul ul lh {
 }
 
 .martial {
-	color: #992603;
+	color: #A50014;
 }
 
 .spanish {
-	color: #E0831E;
+	color: #726706;
 }
 
 .japanese {
 	color: #CE3000;
-}
-
-.post {
-	color: #256B63;
 }
 
 .card-title {
@@ -533,128 +424,6 @@ nav ul ul lh {
 	padding: 8px 16px;
 }
 
-<<<<<<< HEAD
-/* Learn Home */
-.feature-container {
-	padding-top: 50px;
-	padding-bottom: 60px;
-}
-
-.feature-container:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.feature-column {
-	float: left;
-}
-
-.feature-left {
-	padding-left: 60px;
-	padding-right: 15px;
-	width: 65%;
-}
-
-.feature-left img {
-	width: 100%;
-	padding-bottom: 30px;
-	padding-top: 40px;
-}
-
-.feature-left .feature-tag {
-	font-family: 'Libre Franklin', serif;
-	font-weight: normal;
-	font-size: 12px;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-}
-
-.feature-left hr {
-	border: 4px solid #24346D;
-	margin: 8px 0 15px 0;
-	width: 230px;
-}
-
-.feature-left p {
-	font-family: Libre Baskerville, sans-serif;
-	font-weight: normal;
-	line-height: 26px;
-	font-size: 15px;
-}
-
-.feature-left h1 {
-	font-family: Libre Baskerville, sans-serif;
-	font-weight: bold;
-	padding-bottom: 25px;
-	font-size: 36px;
-}
-
-.feature-right {
-	padding-left: 15px;
-	padding-right: 60px;
-	width: 35%;
-}
-
-.feature-right h3 {
-	padding-top: 40px;
-	padding-left: 10px;
-	font-family: Libre Franklin, serif;
-	font-weight: bold;
-	font-size: 23px;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-}
-
-.feature-card {
-	margin-top: 30px;
-	padding-bottom: 50px;
-	background-color: #fff;
-	text-align: center;
-}
-
-.feature-card p {
-	font-family: Libre Baskerville, sans-serif;
-	font-weight: bold;
-	font-size: 18px;
-	padding-top: 20px;
-}
-
-.feature-right button {
-	margin-top: 30px;
-	text-decoration: none;
-	border: 1px solid #fff;
-	padding: 10px 15px 10px 15px;
-	background-color: #C4C4C4;
-	color: #fff;
-	font-family: Libre Franklin, serif;
-	font-size: 12px;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	border-radius: 55px;
-	width: 80%;
-}
-
-/* Women-Human Rights */
-#women-humanrights {
-}
-
-.whr {
-	background-color: #E9F4ED;
-	padding: 40px 60px 50px 60px;
-}
-
-.whr h3 {
-	font-family: Libre Baskerville, sans-serif;
-	font-weight: bold;
-	font-size: 28px;
-	padding-bottom: 20px;
-}
-
-.whr-card-wrapper {
-	margin: auto;
-	width: 90%;
-=======
 /*Historical highlights */
 .highlights-nav {
 	background: white;
@@ -747,7 +516,6 @@ nav ul ul lh {
 #highlight-postMartialLaw {
 	background: #256B63;
 	padding: 60px;
->>>>>>> 451540239ca8a98c6480fb6d1de779047ca288dd
 }
 
 /* Footer */
