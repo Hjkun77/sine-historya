@@ -2,117 +2,118 @@ html {
 	background-color: #D6EADE;
 }
 
-/* TOPBAR */
-
-#topbar-section {
-
+/* NAV */
+nav {
+	text-align: right;
+  	width: 100%;
+  	padding: 0 100px 0 0;
+  	margin: 0;
+  	position: relative;
+  	color: #D6EADE;
+  	background-color: #000;
 }
 
-.arrow {
-	box-sizing: border-box;
-}
-
-.navbar {
-	overflow: hidden;
-	padding-right: 12%;
+nav ul {
 	background-color: #000;
-}
-
-.navbar a {
-	color: #D6EADE;
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 20px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-weight: bold;
-	float: right;
-	padding: 30px 100px 30px 100px;
-}
-
-.dropdown {
-	float: left;
-	overflow: hidden;
-}
-
-.dropdown-btn {
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	border: none;
-	outline: none;
-	color: #D6EADE;
-	padding: 30px 5px 30px 5px;
-	background-color: #000;
-	font-family: 'Libre Franklin', sans-serif;
+	list-style-type: none;
 	margin: 0;
 }
 
-.content {
-	display: none;
-	position: absolute;
-	background-color: #E9F4ED;
-	padding: 20px 40px 20px 30px;
-	width: 100%;
-	z-index: 1;
+nav ul .nav-items {
+  	display: inline-block;
 }
 
-/* about content */
-.about-content a {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 15px;
-	font-weight: bold;
-	float: none;
-	color: #000;
-	text-align: left;
+nav ul li .nav-links {
 	display: block;
-	padding: 10px 0px 10px 0px;
+	padding: 0px 0px;
+	margin: 25px 60px;
+	text-decoration: none;
+	font-family: Libre Franklin, serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 21px;
+	letter-spacing: 0.1em;
+
+}
+
+nav ul .nav-items:hover { /* JUST AN INDICATOR FOR THE NAV LINKS PADDING*/
+	background: #333333;
+}
+
+nav ul li a:hover {
 	text-decoration: none;
 }
 
-.about-content .contact {
-	color: #6C6C6C;
+nav ul ul {
+	display: none;
+	background-color: #E9F4ED;
+	padding: 30px 30px 60px 30px;
 }
 
-/* watch content */
-.watch-content {
+nav ul li:hover > ul {
+	display: block;
+	width: 100%;
+  	position: absolute;
+  	top: 77px;
+  	left: 0px;
+  	text-align: left;
+}
+
+nav ul ul li {
+	padding: 8px 20px 8px 20px;
+	font-family: Libre Franklin, serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 13px;
+	letter-spacing: 0.1em;
+}
+
+nav ul ul lh {
+	color: #000;
+	font-family: Libre Franklin, serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+}
+
+.column-left li a {
+	font-weight: normal;
+	font-size: 13px;
 	
 }
 
-.column-left a {
-	display: block;
-	text-align: left;
-	float: none;
-	padding: 20px 0px 0px 30px;
-	font-size: 13px;
+.column-left li a:before {
+	content: "● ";
 }
 
-.column-center a {
-	font-size: 13px;
-	font-weight: normal;
-	color: #000;
+.first {
+	padding-top: 20px;
+}
+
+.column-center lh {
 	display: block;
-	text-align: left;
-	float: none;
-	padding: 20px 0px 0px 30px;
-	list-style-type: none;
-	border: 5px solid #D6EADE;
+}
+
+.column-center li {
+	display: inline-block;
+}
+
+.column-center li a {
+	color: #000;
+	border: 7px solid #D6EADE;
+	border-radius: 9px;
 	background-color: #D6EADE;
-	border-width: 0px 0px 10px 10px;
+	padding: 0px 5px;
 }
 
-.watch-content ul {
-	font-family: 'Libre Franklin', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	list-style-type: disc;
-	font-size: 13px;
-}
-
-.watch-content lh {
-	font-weight: bold;
+.column-right li a {
 	color: #000;
-	font-size: 15px;
+}
+
+.arrow-right {
+	margin-top: -7px;
+	margin-bottom: -7px;
 }
 
 /* 3 column divider for watch dropdown */
@@ -127,11 +128,6 @@ html {
 .column-center {
 	display: inline-block;
 	width: 33%;
-}
-
-/* display content */
-.dropdown:hover .content {
-	display: block;
 }
 
 .arrow {
