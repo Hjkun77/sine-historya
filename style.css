@@ -90,7 +90,7 @@ nav ul ul lh {
 .column-left li a {
 	font-weight: normal;
 	font-size: 13px;
-  
+
 }
 
 .column-left li a:before {
@@ -199,9 +199,6 @@ nav ul li .active {
 
 #cover-section {
 	background: url("assets/coverphoto.png") no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 30px;
 	padding-bottom: 100px;
@@ -792,25 +789,18 @@ nav ul li .active {
 }
 
 /* Women-Human Rights */
-#women-humanrights {
-}
-
-.whr {
+#women, #human-rights {
 	background-color: #E9F4ED;
 	padding: 40px 60px 50px 60px;
 }
 
-.whr h3 {
-	font-family: Libre Baskerville, sans-serif;
+#women h3, #human-rights h3 {
+	font-family: 'Libre Baskerville', sans-serif;
 	font-weight: bold;
 	font-size: 28px;
 	padding-bottom: 20px;
 }
 
-.whr-card-wrapper {
-	margin: auto;
-	width: 90%;
-}
 
 /* Footer */
 footer {

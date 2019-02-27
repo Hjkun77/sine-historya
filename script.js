@@ -23,6 +23,8 @@ const wNextButton = document.querySelector("#w-next");
 const wPreviousButton = document.querySelector("#w-previous");
 
 const browseGrid = document.querySelector(".grid-browse");
+const browseGridW = document.querySelector("#w");
+const browseGridHR = document.querySelector("#hr");
 
 function browseNext() {
   browseTitle.style.display = "none";
@@ -46,6 +48,26 @@ function browsePrevious() {
   browseGrid.style.gridTemplateColumns  = "1fr 1fr 1fr auto";
 }
 
+function browseNextW() {
+  wAishite.style.display = "none";
+  wLiway.style.display = "none";
+  wOro.style.display = "none";
+  wGamugamo.style.display = "flex";
+  wNextButton.style.display = "none";
+  wPreviousButton.style.display = "block";
+  browseGridW.style.gridTemplateColumns = "auto 1fr 1fr 1fr";
+}
+
+function browsePreviousW() {
+  wAishite.style.display = "flex";
+  wLiway.style.display = "flex";
+  wOro.style.display = "flex";
+  wGamugamo.style.display = "none";
+  wNextButton.style.display = "block";
+  wPreviousButton.style.display = "none";
+  browseGridW.style.gridTemplateColumns = "1fr 1fr 1fr auto";
+}
+
 function browseNextHR() {
   hrBatch81.style.display = "none";
   hrDekada70.style.display = "none";
@@ -53,9 +75,9 @@ function browseNextHR() {
   hrTatlong.style.display = "flex";
   hrML.style.display = "flex";
   hrGiveup.style.display = "flex";
-  hrNextButton.style.display = "block";
+  hrNextButton.style.display = "none";
   hrPreviousButton.style.display = "block";
-  browseGrid.style.gridTemplateColumns = "auto 1fr 1fr 1fr";
+  browseGridHR.style.gridTemplateColumns = "auto 1fr 1fr 1fr";
 }
 
 function browsePreviousHR() {
@@ -66,26 +88,6 @@ function browsePreviousHR() {
   hrML.style.display = "none";
   hrGiveup.style.display = "none";
   hrNextButton.style.display = "block";
-  hrPreviousButton.style.display = "block";
-  browseGrid.style.gridTemplateColumns = "auto 1fr 1fr 1fr";
-}
-
-function browseNextW() {
-  wAishite.style.display = "none";
-  wLiway.style.display = "none";
-  wOro.style.display = "none";
-  wGamugamo.style.display = "flex";
-  wNextButton.style.display = "block";
-  wPreviousButton.style.display = "block";
-  browseGrid.style.gridTemplateColumns = "auto 1fr 1fr 1fr";
-}
-
-function browsePreviousW() {
-  wAishite.style.display = "flex";
-  wLiway.style.display = "flex";
-  wOro.style.display = "flex";
-  wGamugamo.style.display = "none";
-  wNextButton.style.display = "block";
-  wPreviousButton.style.display = "block";
-  browseGrid.style.gridTemplateColumns = "auto 1fr 1fr 1fr";
+  hrPreviousButton.style.display = "none";
+  browseGridHR.style.gridTemplateColumns = "1fr 1fr 1fr auto";
 }
