@@ -40,10 +40,6 @@ nav ul li .nav-links {
 
 }
 
-nav ul .nav-items:hover { /* JUST AN INDICATOR FOR THE NAV LINKS PADDING*/
-  	background: #333333;
-}
-
 nav ul li a:hover {
   	text-decoration: none;
 }
