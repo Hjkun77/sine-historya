@@ -23,6 +23,10 @@ nav ul .nav-items {
     display: inline-block;
 }
 
+.nav-items p {
+	display: inline-block;
+}
+
 nav ul li .nav-links {
  	display: block;
  	padding: 0px 0px;
@@ -126,6 +130,29 @@ nav ul ul lh {
 	margin-bottom: -7px;
 }
 
+/* column-right dropdowns */
+.column-right ul {
+	display: none;
+	background-color: #D6EADE;
+}
+
+.column-right .stream-dropdown {
+	top: 70px;
+	right: 5%;
+	width: 10%;
+}
+
+.column-right .mtrcb-dropdown {
+	top: 102px;
+	right: 9%;
+	width: 10%;
+}
+
+.column-right ul li img {
+	width: 40px;
+	margin-right: 9px;
+}
+
 /* 3 column divider for watch dropdown */
 .column-left {
 	float: left;
@@ -140,6 +167,7 @@ nav ul ul lh {
 	width: 33%;
 }
 
+/* about dropdown */
 .about-dropdown li a {
 	font-weight: bold;
 	color: #000;
@@ -167,25 +195,38 @@ nav ul ul lh {
 	margin-bottom: 5px;
 }
 
+nav ul li .active {
+	border-bottom: 2px solid currentColor;
+}
 
 /* COVER PHOTO */
 
 #cover-section {
-	background: #333333;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	background: url("assets/coverphoto.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 100px;
 	color: #D6EADE;
 }
 
 .home-landing {
-	width: 75%;
+	width: 90%;
 	margin: auto;
 }
 
-.home-landing h1 {
-	font-family: 'Libre Baskerville', sans-serif;
+.home-landing h3 {
+	font-family: 'Libre Franklin', serif;
+	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+}
+
+.home-landing img {
+	width: 450px;
 }
 
 .home-landing p {
@@ -194,8 +235,8 @@ nav ul ul lh {
 }
 
 .home-button {
-	margin-top: 55vh;
-	width: 35%;
+	margin-top: 38vh;
+	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -207,14 +248,14 @@ nav ul ul lh {
 	text-align: center;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-	color: #D6EADE;
+	color: #000;
 	margin-bottom: 30px;
 }
 
 .home-button button {
-	background: #D6EADE;
-	padding: 8px 16px;
-	border: 2px solid #D6EADE;
+	background: #FE5417;
+	padding: 13px 16px;
+	border: 2px solid #FE5417;
 	border-radius: 55px;
 	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 500;
@@ -222,9 +263,14 @@ nav ul ul lh {
 	text-align: center;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-
+	width: 250px;
 	color: #000000;
 }
+
+.home-button button a {
+	text-decoration: none;
+}
+
 /* FILM CARDS */
 #card-section {
 	margin: auto;
@@ -625,7 +671,7 @@ nav ul ul lh {
 }
 
 #highlight-american {
-	background: #24346D;;
+	background: #24346D;
 	padding: 60px;
 }
 
@@ -768,6 +814,7 @@ nav ul ul lh {
 .whr-card-wrapper {
 	margin: auto;
 	width: 90%;
+}
 
 /* Footer */
 footer {
