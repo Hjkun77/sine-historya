@@ -730,6 +730,10 @@ nav ul ul lh {
 	padding-top: 20px;
 }
 
+.feature-card img {
+	width: 100%;
+}
+
 .feature-right button {
 	margin-top: 30px;
 	text-decoration: none;
@@ -744,6 +748,26 @@ nav ul ul lh {
 	border-radius: 55px;
 	width: 80%;
 }
+
+/* Women-Human Rights */
+#women-humanrights {
+}
+
+.whr {
+	background-color: #E9F4ED;
+	padding: 40px 60px 50px 60px;
+}
+
+.whr h3 {
+	font-family: Libre Baskerville, sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	padding-bottom: 20px;
+}
+
+.whr-card-wrapper {
+	margin: auto;
+	width: 90%;
 
 /* Footer */
 footer {
