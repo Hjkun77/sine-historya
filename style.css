@@ -306,6 +306,7 @@ nav ul li .active {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	font-size: 14px;
+	padding-bottom: 10px;
 }
 
 .american {
@@ -350,7 +351,7 @@ nav ul li .active {
 	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
-	padding: 100px 0 5px 0;
+	padding: 100px 0 9px 0;
 }
 
 .card-info {
@@ -358,7 +359,7 @@ nav ul li .active {
 	font-size: 14px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	padding: 0 15px 8px 0;
+	padding: 0 15px 10px 0;
 	float: left;
 }
 
@@ -383,6 +384,7 @@ nav ul li .active {
 }
 
 .card-tags span {
+	float: left;
 	margin-right: 15px;
 }
 
@@ -799,6 +801,52 @@ nav ul li .active {
 	font-weight: bold;
 	font-size: 28px;
 	padding-bottom: 20px;
+}
+
+/* Learning Modules */
+.grid-LM {
+  	display: grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	grid-gap: 20px;
+  	-webkit-box-align: start;
+  	    -ms-flex-align: start;
+  	        align-items: start;
+  	padding-bottom: 30px;
+}
+
+.grid-LM > article {
+	background-color: #fff;
+}
+
+.bottom-right-card-LM {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0 17px 20px 0px;
+}
+
+.card-img-LM {
+	width: 100%;
+}
+
+.learning-modules h1 {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FE5417;
+	padding-bottom: 10px;
+
+	border-bottom: 5px solid;
+	width: 400px;
+}
+
+.learning-modules p {
+	font-family: Libre Baskerville;
+	line-height: 26px;
+	font-size: 15px;
+	padding: 30px 18% 60px 10px;
 }
 
 
