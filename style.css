@@ -865,6 +865,81 @@ nav ul li .active {
 	clear: both;
 }
 
+.container-FF {
+	background-color: 
+}
+
+.column-left-FF {
+	float: left;
+	width: 45%
+}
+
+.column-left-FF h1 {
+	font-family: Libre Baskerville;
+	font-weight: bold;
+	font-size: 45px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.column-left-FF p {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.info-FF {
+	padding-top: 5px;
+}
+
+.director-FF {
+	padding-top: 5px;
+}
+
+.tags-FF {
+	padding-top: 20px;
+}
+
+.info-FF p {
+	font-weight: normal;
+	display: inline-block;
+}
+
+.info-FF span {
+	margin-right: 25px;
+}
+
+.director-FF p {
+	font-weight: normal;
+	display: inline-block;
+}
+
+.director-FF span {
+	margin-right: 10px;
+}
+
+.tags-FF p {
+	text-transform: none;
+	color: #C4C4C4;
+	font-weight: normal;
+	font-size: 13px;
+}
+.tags-FF span {
+	margin-right: 30px;
+}
+
+.column-middle-FF {
+	float: left;
+	width: 45%
+}
+
+.column-right-FF {
+	float: left;
+	width: 10%
+}
+
 /* Footer */
 footer {
 	background: #000000;
