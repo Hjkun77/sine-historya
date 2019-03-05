@@ -344,6 +344,7 @@ nav ul li .active {
 .bottom-right-card {
 	position: absolute;
 	bottom: 0;
+	right: 0;
 	padding: 0 17px 20px 0px;
 }
 
@@ -847,6 +848,22 @@ nav ul li .active {
 	line-height: 26px;
 	font-size: 15px;
 	padding: 30px 18% 60px 10px;
+}
+
+/* All Cards */
+.all-text h1 {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 36px;
+	float: left;
+	text-transform: uppercase;
+	padding-right: 5px;
+}
+
+.all-text p {
+	font-family: Libre Franklin;
+	font-size: 36px;
+	padding-bottom: 50px;
 }
 
 
