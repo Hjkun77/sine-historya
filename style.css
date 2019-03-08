@@ -107,6 +107,8 @@ nav ul ul lh {
 
 .column-center li {
 	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: -30px;
 }
 
 .column-center li a {
@@ -242,6 +244,7 @@ nav ul li .active {
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	color: #000;
+	padding-top: 20px;
 	margin-bottom: 30px;
 }
 
@@ -383,6 +386,7 @@ nav ul li .active {
 }
 
 .card-tags span {
+	float: left;
 	margin-right: 15px;
 }
 
