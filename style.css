@@ -802,8 +802,50 @@ nav ul li .active {
 }
 
 /* Film in Focus */
-#film-focus {
+#film-focus-luna {
 	background: url("assets/luna-cover.png") no-repeat center center;
+	background-size: cover;
+	padding: 0 0 750px 0;
+}
+
+#film-focus-goyo {
+	background: url("assets/movies/goyo.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 0 0 750px 0;
+}
+
+#film-focus-jose {
+	background: url("assets/movies/jose-cover.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 0 0 750px 0;
+}
+
+#film-focus-sakay {
+	background: url("assets/movies/sakay.png") no-repeat center center;
+	background-size: cover;
+	padding: 0 0 750px 0;
+}
+
+#film-focus-sister {
+	background: url("assets/movies/sister.png") no-repeat center center;
+	background-size: cover;
+	padding: 0 0 750px 0;
+}
+
+#film-focus-liway {
+	background: url("assets/movies/liway.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 0 0 750px 0;
+}
+
+#film-focus-oro {
+	background: url("assets/movies/oro.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 0 0 750px 0;
+}
+
+#film-focus-larawan {
+	background: url("assets/movies/larawan.png") no-repeat center center;
 	background-size: cover;
 	padding: 0 0 750px 0;
 }
@@ -890,12 +932,16 @@ nav ul li .active {
 	padding-bottom: 30px;
 }
 
-.column-left-FF {
-	float: left;
-	width: 30%
+.title-FF {
+	width: 100%;
 }
 
-.column-left-FF h1 {
+.column-left-FF {
+	float: left;
+	width: 30%;
+}
+
+.title-FF h1 {
 	font-family: Libre Baskerville;
 	font-weight: bold;
 	font-size: 45px;
@@ -962,7 +1008,7 @@ nav ul li .active {
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #fff;
-	padding: 90px 0 10px 0;
+	padding: 0px 0 10px 0;
 	margin: 0 50px 0 50px;
 }
 
@@ -1000,7 +1046,7 @@ nav ul li .active {
 }
 
 .bottom-FF {
-	padding-top: 250px;
+	padding-top: 125px;
 }
 
 /* Footer */
