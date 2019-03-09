@@ -802,52 +802,97 @@ nav ul li .active {
 }
 
 /* Film in Focus */
+.film-focus {
+	padding: 0 0 750px 0;
+}
+
 #film-focus-luna {
 	background: url("assets/luna-cover.png") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 750px 0;
 }
-
 #film-focus-goyo {
 	background: url("assets/movies/goyo.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 750px 0;
 }
-
 #film-focus-jose {
 	background: url("assets/movies/jose-cover.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 750px 0;
 }
-
 #film-focus-sakay {
 	background: url("assets/movies/sakay.png") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 750px 0;
 }
-
 #film-focus-sister {
 	background: url("assets/movies/sister.png") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 750px 0;
 }
-
 #film-focus-liway {
 	background: url("assets/movies/liway.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 750px 0;
 }
-
 #film-focus-oro {
 	background: url("assets/movies/oro.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 750px 0;
 }
-
 #film-focus-larawan {
 	background: url("assets/movies/larawan.png") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 750px 0;
+}
+#film-focus-dekada {
+	background: url("assets/movies/dekada70.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-bayaning {
+	background: url("assets/movies/bayaning.png") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-aishite {
+	background: url("assets/movies/aishite.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-giveup {
+	background: url("assets/movies/giveup.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-batas {
+	background: url("assets/movies/batas.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-ninoy {
+	background: url("assets/movies/ninoy.png") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-ml {
+	background: url("assets/movies/ml.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-bonifacio {
+	background: url("assets/movies/bonifacio.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-tatlong {
+	background: url("assets/movies/tatlong.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-balangiga {
+	background: url("assets/movies/balangiga.png") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-batch81 {
+	background: url("assets/movies/batch81.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-gamugamo {
+	background: url("assets/movies/gamugamo.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-baler {
+	background: url("assets/movies/baler.jpg") no-repeat center center;
+	background-size: cover;
+}
+#film-focus-tupug {
+	background: url("assets/movies/tupug.png") no-repeat center center;
+	background-size: cover;
 }
 
 .modules-btn {
