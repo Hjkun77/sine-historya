@@ -207,6 +207,13 @@ nav ul li .active {
 	color: #D6EADE;
 }
 
+#cover-section-learn {
+	background: url("assets/coverphoto-learn.png") no-repeat center center;
+	background-size: cover;
+	padding-bottom: 800px;
+	color: #D6EADE;
+}
+
 .home-landing {
 	width: 90%;
 	margin: auto;
