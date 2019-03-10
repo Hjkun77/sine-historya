@@ -13,6 +13,16 @@ nav {
     background-color: #000;
 }
 
+.navbar {
+	padding-left: 24px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
 nav ul {
   	background-color: #000;
   	list-style-type: none;
@@ -344,6 +354,7 @@ nav ul li .active {
 .bottom-right-card {
 	position: absolute;
 	bottom: 0;
+	right: 0;
 	padding: 0 17px 20px 0px;
 }
 
@@ -803,7 +814,6 @@ nav ul li .active {
 	padding-bottom: 20px;
 }
 
-<<<<<<< HEAD
 /* Film in Focus */
 .film-focus {
 	padding: 0 0 750px 0;
@@ -974,7 +984,7 @@ nav ul li .active {
 	background: rgba(0,0,0,0.64);
 }
 
-.container-FF {	
+.container-FF {
 	margin: auto;
 	width: 93%;
 	padding-bottom: 30px;
@@ -1096,7 +1106,7 @@ nav ul li .active {
 .bottom-FF {
 	padding-top: 125px;
 }
-=======
+
 /* Learning Modules */
 .grid-LM {
   	display: grid;
@@ -1142,8 +1152,6 @@ nav ul li .active {
 	font-size: 15px;
 	padding: 30px 18% 60px 10px;
 }
-
->>>>>>> develop
 
 /* Footer */
 footer {
