@@ -65,8 +65,13 @@ nav ul ul {
 
 nav ul .watch-dropdown {
 	padding: 30px 30px 10px 30px;
+<<<<<<< HEAD
 	width: 320px;
     right: 460px;
+=======
+	width: 100%;
+    left: 0px;
+>>>>>>> 97c07e1401045b2480048b64ec69f936ecc244ef
 }
 
 nav ul .about-dropdown {
