@@ -64,7 +64,7 @@ nav ul ul {
 }
 
 nav ul .watch-dropdown {
-	padding: 30px 30px 60px 30px;
+	padding: 30px 30px 10px 30px;
 	width: 100%;
     left: 0px;
 }
@@ -105,6 +105,7 @@ nav ul ul h3 {
 	font-size: 15px;
 	letter-spacing: 0.1em;
 	padding-bottom: 20px;
+	padding-top: 15px;
 }
 
 .column-left li a {
