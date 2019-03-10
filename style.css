@@ -969,7 +969,7 @@ nav ul li .active {
 }
 
 #film-focus-text {
-	margin-top: -300px;
+	margin-top: -325px;
 	background: rgba(0,0,0,0.64);
 }
 
@@ -1093,9 +1093,9 @@ nav ul li .active {
 }
 
 .bottom-FF {
-	padding-top: 125px;
+	padding-top: 150px;
 }
-=======
+
 /* Learning Modules */
 .grid-LM {
   	display: grid;
@@ -1141,8 +1141,6 @@ nav ul li .active {
 	font-size: 15px;
 	padding: 30px 18% 60px 10px;
 }
-
->>>>>>> develop
 
 /* Footer */
 footer {
