@@ -236,6 +236,7 @@ nav ul li .active {
 .home-landing {
 	width: 90%;
 	margin: auto;
+	min-height: 100vh;
 }
 
 .home-landing h3 {
@@ -255,7 +256,7 @@ nav ul li .active {
 	font-size: 15px;
 }
 
-.home-button {
+/* .home-button {
 	margin-top: 38vh;
 	width: 550px;
 	margin-left: auto;
@@ -291,7 +292,7 @@ nav ul li .active {
 
 .home-button button a {
 	text-decoration: none;
-}
+} */
 
 /* FILM CARDS */
 #card-section {
