@@ -816,7 +816,7 @@ nav ul li .active {
 
 /* Film in Focus */
 .film-focus {
-	padding: 0 0 750px 0;
+	padding: 0 0 570px 0;
 }
 
 #film-focus-luna {
@@ -980,7 +980,7 @@ nav ul li .active {
 }
 
 #film-focus-text {
-	margin-top: -300px;
+	margin-top: -325px;
 	background: rgba(0,0,0,0.64);
 }
 
@@ -1104,7 +1104,7 @@ nav ul li .active {
 }
 
 .bottom-FF {
-	padding-top: 125px;
+	padding-top: 150px;
 }
 
 /* Learning Modules */
