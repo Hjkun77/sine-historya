@@ -87,10 +87,19 @@ nav ul ul lh {
 	letter-spacing: 0.1em;
 }
 
+nav ul ul h3 {
+	color: #000;
+	font-family: Libre Franklin, serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	padding-bottom: 20px;
+}
+
 .column-left li a {
 	font-weight: normal;
 	font-size: 13px;
-
 }
 
 .column-left li a:before {
