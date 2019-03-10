@@ -60,13 +60,13 @@ nav ul ul {
 	z-index: 1;
     position: absolute;
     text-align: left;
-    top: 76px;
+    top: 77px;
 }
 
 nav ul .watch-dropdown {
 	padding: 30px 30px 10px 30px;
-	width: 100%;
-    left: 0px;
+	width: 320px;
+    right: 460px;
 }
 
 nav ul .about-dropdown {
@@ -156,14 +156,14 @@ nav ul ul h3 {
 
 .column-right .stream-dropdown {
 	top: 70px;
-	right: 5%;
-	width: 10%;
+	right: 0px;
+	width: 150px;
 }
 
 .column-right .mtrcb-dropdown {
 	top: 102px;
 	right: 9%;
-	width: 10%;
+	width: 130px;
 }
 
 .column-right ul li img {
@@ -174,15 +174,14 @@ nav ul ul h3 {
 /* 3 column divider for watch dropdown */
 .column-left {
 	float: left;
-	width: 33%;
 }
 .column-right {
 	float: right;
-	width: 33%;
+	width: 50%;
 }
 .column-center {
 	display: inline-block;
-	width: 33%;
+	width: 1%;
 }
 
 /* about dropdown */
