@@ -1000,13 +1000,13 @@ nav ul li .active {
 }
 
 #film-focus-text {
-	margin-top: -325px;
+	margin-top: -355px;
 	background: rgba(0,0,0,0.64);
 }
 
 .container-FF {
 	margin: auto;
-	width: 93%;
+	width: 91%;
 	padding-bottom: 30px;
 }
 
@@ -1124,7 +1124,7 @@ nav ul li .active {
 }
 
 .bottom-FF {
-	padding-top: 150px;
+	padding-top: 180px;
 }
 
 /* Learning Modules */
@@ -1351,6 +1351,18 @@ nav ul li .active {
 	width: 50%;
 	float: left;
 	padding: 20px 20px 20px 20px;
+}
+
+/* Wrapper */
+
+.all-wrapper {
+	width: 95%;
+	margin: auto;
+}
+
+.all-wrapper-x2 {
+	width: 90%;
+	margin: auto;
 }
 
 /* Footer */
