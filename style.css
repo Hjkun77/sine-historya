@@ -986,7 +986,7 @@ nav ul li .active {
 	line-height: 26px;
 	font-size: 15px;
 	padding-top: 30px;
-	margin-right: 30px;
+	margin-right: 70px;
 }
 
 .row-50 {
@@ -1004,7 +1004,7 @@ nav ul li .active {
 	background: rgba(0,0,0,0.64);
 }
 
-.container-FF {
+.container-FF {	
 	margin: auto;
 	width: 93%;
 	padding-bottom: 30px;
