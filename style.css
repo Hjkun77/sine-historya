@@ -1275,6 +1275,7 @@ nav ul li .active {
 
 #alternative-cinema {
 	background: #333333;
+	backdrop-filter: blur(4px);
 	-webkit-backdrop-filter: blur(4px);
 	        backdrop-filter: blur(4px);
 }
@@ -1325,6 +1326,7 @@ nav ul li .active {
 
 .AC-container {
 	height: 300px;
+	position: relative;
 }
 
 .AC-container:after {
@@ -1343,6 +1345,7 @@ nav ul li .active {
 .img-AC img {
 	width: 100%;
 	height: inherit;
+	object-fit: cover;
 	-o-object-fit: cover;
 	   object-fit: cover;
 }
@@ -1351,6 +1354,43 @@ nav ul li .active {
 	width: 50%;
 	float: left;
 	padding: 20px 20px 20px 20px;
+}
+
+.text-AC p {
+	font-family: Libre Franklin;
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+	padding-top: 70px;
+	margin-right: 40px;
+}
+
+.text-AC h1 {
+	font-family: Libre Baskerville;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: normal;
+	color: #000000;
+	padding-bottom: 10px;
+}
+
+.text-AC h3 {
+	font-family: Libre Franklin;
+	font-size: 15px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+
+.fb img {
+
+}
+
+.fb {
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	padding-bottom: 20px;
+	padding-right: 20px;
 }
 
 /* Footer */
