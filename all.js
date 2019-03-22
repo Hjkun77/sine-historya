@@ -41,11 +41,14 @@ const SakayCard1 = document.querySelector('#sakay-card1')
 const SisterCard1 = document.querySelector('#sister-card1')
 const WalangDiyosCard1 = document.querySelector('#walangDiyos-card1')
 
+var SortValue = document.getElementById('sortSelect').value
 var MRTCBValue = document.querySelector('#mrtcbSelect').value
 var StreamingValue = document.querySelector('#streamingSelect').value
 
 function sortFunction() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'block'
     LarawanCard.style.display = 'block'
@@ -135,7 +138,9 @@ function sortFunction() {
 }
 
 function familyDynamics() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'none'
     LarawanCard.style.display = 'block'
@@ -227,7 +232,9 @@ function familyDynamics() {
 
 
 function humanRights() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'none'
     LarawanCard.style.display = 'none'
@@ -317,7 +324,9 @@ function humanRights() {
 
 
 function documentary() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'none'
     LarawanCard.style.display = 'none'
@@ -403,11 +412,12 @@ function documentary() {
     SisterCard.style.display = 'none'
     WalangDiyosCard.style.display = 'none'
   }
-
 }
 
 function nationBuilding() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'none'
     LarawanCard.style.display = 'none'
@@ -496,7 +506,9 @@ function nationBuilding() {
 }
 
 function bioPic() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'none'
     LarawanCard.style.display = 'none'
@@ -586,7 +598,9 @@ function bioPic() {
 }
 
 function colonialism() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'block'
     LarawanCard.style.display = 'none'
@@ -676,7 +690,9 @@ function colonialism() {
 }
 
 function women() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'block'
     LarawanCard.style.display = 'none'
@@ -766,7 +782,9 @@ function women() {
 }
 
 function politics() {
-  var SortValue = document.getElementById('sortSelect').value
+  SortValue = document.getElementById('sortSelect').value
+  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
     AishiteCard.style.display = 'none'
     LarawanCard.style.display = 'none'
