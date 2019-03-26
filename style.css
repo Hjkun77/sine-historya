@@ -998,6 +998,45 @@ nav ul li .active {
 	clear: both;
 }
 
+.column-bloom-left {
+	float: left;
+	width: 40%;
+}
+
+.column-bloom-right {
+	float: left;
+	width: 60%;
+}
+
+.column-bloom-left h3 {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 23px;
+	padding-top: 30px;
+}
+
+.column-bloom-left p {
+	font-family: Libre Baskerville;
+	line-height: 26px;
+	font-size: 15px;
+	padding-top: 30px;
+	margin-right: 70px;
+}
+
+.column-bloom-right img {
+	width: 100%;
+}
+
+.row-bloom {
+	padding: 50px 0;
+}
+
+.row-bloom:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 #film-focus-text {
 	margin-top: -325px;
 	background: rgba(0,0,0,0.64);
