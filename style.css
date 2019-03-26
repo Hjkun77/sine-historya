@@ -382,7 +382,6 @@ nav ul li .active {
 	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
-	padding: 100px 0 9px 0;
 }
 
 .card-info {
@@ -1004,7 +1003,7 @@ nav ul li .active {
 	background: rgba(0,0,0,0.64);
 }
 
-.container-FF {	
+.container-FF {
 	margin: auto;
 	width: 93%;
 	padding-bottom: 30px;
