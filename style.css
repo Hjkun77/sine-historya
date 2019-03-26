@@ -415,6 +415,7 @@ nav ul li .active {
 
 .card-tags span {
 	float: left;
+	left: 0;
 	margin-right: 15px;
 }
 
@@ -695,9 +696,23 @@ nav ul li .active {
 	padding: 60px;
 }
 
+#highlight-spanish-cover {
+	background: #E0831E;
+	padding: 60px 0 0 0;
+}
+
+.highlights-cover {
+	width: 100%;
+}
+
 #highlight-american {
 	background: #24346D;
 	padding: 60px;
+}
+
+#highlight-american-cover {
+	background: #24346D;
+	padding: 60px 0 0 0;
 }
 
 #highlight-japanese {
@@ -705,14 +720,29 @@ nav ul li .active {
 	padding: 60px;
 }
 
+#highlight-japanese-cover {
+	background: #CE3000;
+	padding: 60px 0 0 0;
+}
+
 #highlight-martialLaw {
 	background: #A50014;
 	padding: 60px;
 }
 
+#highlight-martialLaw-cover {
+	background: #A50014;
+	padding: 60px 0 0 0;
+}
+
 #highlight-postMartialLaw {
 	background: #256B63;
 	padding: 60px;
+}
+
+#highlight-postMartialLaw-cover {
+	background: #256B63;
+	padding: 60px 0 0 0;
 }
 
 /* Learn Home */
@@ -737,10 +767,23 @@ nav ul li .active {
 	width: 65%;
 }
 
-.feature-left img {
+.feature-left-img {
+	position: relative;
+}
+
+.feature-left-img img {
 	width: 100%;
 	padding-bottom: 30px;
 	padding-top: 40px;
+}
+
+.feature-left-img .book {
+	width: 80px;
+	margin-top: 20px;
+	margin-right: 20px;
+	top: 0;
+	right: 0;
+	position: absolute;
 }
 
 .feature-left .feature-tag {
@@ -1038,13 +1081,13 @@ nav ul li .active {
 }
 
 #film-focus-text {
-	margin-top: -325px;
+	margin-top: -355px;
 	background: rgba(0,0,0,0.64);
 }
 
 .container-FF {
 	margin: auto;
-	width: 93%;
+	width: 91%;
 	padding-bottom: 30px;
 }
 
@@ -1162,7 +1205,7 @@ nav ul li .active {
 }
 
 .bottom-FF {
-	padding-top: 150px;
+	padding-top: 180px;
 }
 
 /* Learning Modules */
@@ -1199,7 +1242,7 @@ nav ul li .active {
 	text-transform: uppercase;
 	color: #FE5417;
 	padding-bottom: 10px;
-
+	padding-top: 20px;
 	border-bottom: 5px solid;
 	width: 400px;
 }
@@ -1208,7 +1251,7 @@ nav ul li .active {
 	font-family: Libre Baskerville;
 	line-height: 26px;
 	font-size: 15px;
-	padding: 30px 18% 60px 10px;
+	padding: 30px 1% 60px 10px;
 }
 
 /* All Cards */
@@ -1394,6 +1437,19 @@ nav ul li .active {
 	padding: 20px 20px 20px 20px;
 }
 
+/* Wrapper */
+
+.all-wrapper {
+	width: 95%;
+	margin: auto;
+}
+
+.all-wrapper-x2 {
+	width: 90%;
+	margin: auto;
+}
+
+
 .text-AC p {
 	font-family: Libre Franklin;
 	font-size: 13px;
@@ -1429,6 +1485,7 @@ nav ul li .active {
 	position: absolute;
 	padding-bottom: 20px;
 	padding-right: 20px;
+
 }
 
 /* Footer */

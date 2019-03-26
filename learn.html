@@ -20,12 +20,12 @@
 </head>
 <body>
 
-<nav>
+  <nav>
     <div class="navbar">
       <a href="/"><img src="./assets/logos/sineHistorya-logo.svg" alt="logo" /></a>
       <ul>
         <li class="nav-items">
-          <a class="nav-links" href="index.html"><p class="active">Watch</p>
+          <a class="nav-links" href="index.html"><p>Watch</p>
             <div class="arrow"></div>
           </a>
           <ul class="watch-dropdown">
@@ -48,9 +48,9 @@
             <div class="arrow"></div>
           </a>
           <ul class="about-dropdown">
-            <li><a href="about.html#mission">mission</a></li>
-            <li><a href="alternative-cinema.html">independent cinema</a></li>
-            <li class="contact"><a href="about.html#contact-us">contact</a></li>
+            <li><a style="font-weight: normal;" href="about.html#mission">mission</a></li>
+            <li><a style="font-weight: normal;" href="alternative-cinema.html">independent cinema</a> <img style="width: 35px; padding-left: 5px;" src="assets/icons/cinema.png"/></li>
+            <li class="contact"><a style="font-weight: normal;" href="about.html#contact-us">contact</a></li>
           </ul>
         </li>
       </ul>
@@ -61,10 +61,13 @@
 
   </section>
 
-  <section id="featured">
+  <section id="featured" class="all-wrapper">
     <div class="feature-container">
       <div class="feature-column feature-left">
-        <img src="assets/movies/luna.jpg"/>
+        <div class="feature-left-img">
+          <img src="assets/movies/luna.jpg"/>
+          <img class="book" src="assets/icons/book.png"/>
+        </div>
         <p class="feature-tag american">american colonial period</p>
         <hr>
         <h1>Heneral Luna</h1>
@@ -82,7 +85,7 @@
           <p>Aguila</p>
         </div>
         <div style="text-align: center">
-          <button>see more (x)</button>
+          <a href="learning-modules.html"><button>see more (x)</button></a>
         </div>
       </div>
     </div>
@@ -91,7 +94,7 @@
 
   <section id="women">
 
-    <h3>Women</h3>
+    <div class="all-wrapper"><h3>Women</h3>
     <div class="grid-browse" id="w">
         <div onclick="browsePreviousW()" class="none" style="margin: auto; cursor: pointer" id="w-previous">
           <svg width="22" height="67" viewBox="0 0 22 67" fill="none" xmlns="http://www.w3.org/2000/svg" transform="scale(-1,1)">
@@ -128,10 +131,12 @@
           </svg>
         </div>
       </div>
+    </div>
   </section>
 
   <section id="human-rights">
-    <h3>Human Rights</h3>
+    <div class="all-wrapper">
+      <h3>Human Rights</h3>
       <div class="grid-browse" id="hr">
         <div onclick="browsePreviousHR()" class="none" style="margin: auto; cursor: pointer" id="hr-previous">
           <svg width="22" height="67" viewBox="0 0 22 67" fill="none" xmlns="http://www.w3.org/2000/svg" transform="scale(-1,1)">
@@ -180,6 +185,7 @@
           </svg>
         </div>
       </div>
+    </div>
   </section>
   <footer>
     <div class="flex spaceBetween" style="margin-bottom: 16px">
