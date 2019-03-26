@@ -416,6 +416,7 @@ nav ul li .active {
 
 .card-tags span {
 	float: left;
+	left: 0;
 	margin-right: 15px;
 }
 
