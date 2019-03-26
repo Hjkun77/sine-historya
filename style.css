@@ -697,9 +697,23 @@ nav ul li .active {
 	padding: 60px;
 }
 
+#highlight-spanish-cover {
+	background: #E0831E;
+	padding: 60px 0 0 0;
+}
+
+.highlights-cover {
+	width: 100%;
+}
+
 #highlight-american {
 	background: #24346D;
 	padding: 60px;
+}
+
+#highlight-american-cover {
+	background: #24346D;
+	padding: 60px 0 0 0;
 }
 
 #highlight-japanese {
@@ -707,14 +721,29 @@ nav ul li .active {
 	padding: 60px;
 }
 
+#highlight-japanese-cover {
+	background: #CE3000;
+	padding: 60px 0 0 0;
+}
+
 #highlight-martialLaw {
 	background: #A50014;
 	padding: 60px;
 }
 
+#highlight-martialLaw-cover {
+	background: #A50014;
+	padding: 60px 0 0 0;
+}
+
 #highlight-postMartialLaw {
 	background: #256B63;
 	padding: 60px;
+}
+
+#highlight-postMartialLaw-cover {
+	background: #256B63;
+	padding: 60px 0 0 0;
 }
 
 /* Learn Home */
