@@ -229,8 +229,34 @@ nav ul li .active {
 #cover-section-learn {
 	background: url("assets/coverphoto-learn.png") no-repeat center center;
 	background-size: cover;
-	padding-bottom: 800px;
-	color: #D6EADE;
+	height: 50vw;
+	color: #000;
+}
+
+.learn-cover-text {
+	padding: 60px 230px 60px 230px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.learn-cover-text h3 {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.learn-cover-text p {
+	font-family: Libre Baskerville;
+	font-size: 15px;
+	line-height: 26px;
+}
+
+.module-text {
+	background-color: #E9F4ED;
+	padding: 20px 30px 50px 30px;
+	margin-top: -35px;
 }
 
 .home-landing {
@@ -814,11 +840,12 @@ nav ul li .active {
 	font-size: 12px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+	padding-bottom: 10px;
 }
 
 .feature-left hr {
 	border: 4px solid #24346D;
-	margin: 5px 0 15px 0;
+	margin: 5px 0 25px 0;
 	width: 230px;
 }
 
