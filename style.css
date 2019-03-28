@@ -691,6 +691,10 @@ nav ul li .active {
 	color: white !important;
 }
 
+.highlight-padding-bottom {
+	padding-bottom: 30px;
+}
+
 #highlight-spanish {
 	background: #E0831E;
 	padding: 60px;
@@ -743,6 +747,24 @@ nav ul li .active {
 #highlight-postMartialLaw-cover {
 	background: #256B63;
 	padding: 60px 0 0 0;
+}
+
+.highlights-button {
+	float: right;
+}
+
+.highlights-button a {
+	margin-top: 30px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 10px 100px 10px 100px;
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	font-family: Libre Franklin, serif;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border-radius: 55px;
 }
 
 /* Learn Home */
