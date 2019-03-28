@@ -1408,10 +1408,11 @@ nav ul li .active {
 	backdrop-filter: blur(4px);
 	-webkit-backdrop-filter: blur(4px);
 	        backdrop-filter: blur(4px);
+	padding-bottom: 440px;
 }
 
 .ac-text {
-	padding: 370px 0px 0px 60px;
+	padding: 70px 0px 0px 60px;
 }
 
 .ac-text h1 {
@@ -1435,9 +1436,8 @@ nav ul li .active {
 	line-height: 25px;
 	font-size: 14px;
 	color: #E9F4ED;
-	margin-right: 30%;
-	padding-top: 30px;
-	padding-bottom: 140px;
+	margin-right: 25%;
+	padding-top: 25px;
 }
 
 .grid-AC {
