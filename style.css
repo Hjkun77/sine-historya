@@ -229,8 +229,34 @@ nav ul li .active {
 #cover-section-learn {
 	background: url("assets/coverphoto-learn.png") no-repeat center center;
 	background-size: cover;
-	padding-bottom: 800px;
-	color: #D6EADE;
+	height: 50vw;
+	color: #000;
+}
+
+.learn-cover-text {
+	padding: 60px 230px 60px 230px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.learn-cover-text h3 {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.learn-cover-text p {
+	font-family: Libre Baskerville;
+	font-size: 15px;
+	line-height: 26px;
+}
+
+.module-text {
+	background-color: #E9F4ED;
+	padding: 20px 30px 50px 30px;
+	margin-top: -35px;
 }
 
 .home-landing {
@@ -411,6 +437,7 @@ nav ul li .active {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #6C6C6C;
+	margin-right: 60px;
 }
 
 .card-tags span {
@@ -467,6 +494,44 @@ nav ul li .active {
 }
 
 /*About*/
+#about-cover {
+	color: #000;
+	background: url("assets/coverphoto-about.png") no-repeat center center;
+	background-size: cover;
+}
+
+.about-cover-text {
+	padding: 105px 0 40px 0;
+	margin: auto;
+	width: 86%;
+}
+
+.about-cover-text img {
+	padding-bottom: 30px;
+}
+
+.about-cover-text h1 {
+	font-family: Libre Franklin;
+	font-size: 21px;
+	line-height: 29px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+.about-cover-text h3 {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	padding-bottom: 70px;
+}
+
+.about-cover-text p {
+	font-family: Libre Baskerville;
+	font-size: 17px;
+	line-height: 35px;
+}
+
 .about-thesis {
 	background: #C4C4C4;
 	padding: 60px 24px;
@@ -504,8 +569,12 @@ nav ul li .active {
 }
 
 .about-mission {
-	padding: 15px 24px;
+	padding: 40px 24px;
 	margin-bottom: 30px;
+}
+
+.about-mission a {
+	text-decoration: none;
 }
 
 .about-mission h1 {
@@ -540,7 +609,7 @@ nav ul li .active {
 	font-family: 'Libre Baskerville',sans-serif;
 	line-height: 32px;
 	font-size: 18px;
-	width: 210px;
+	width: 380px;
 	margin-top: 30px;
 	margin-bottom: 120px;
 	color: #000000;
@@ -557,13 +626,31 @@ nav ul li .active {
 	padding-bottom: 2px;
 	border-bottom: 3px solid #000000;
 	color: #000000;
-	width: 35%;
+	width: 41%;
 }
 
 /*About - Contact Us */
 .contact-us {
 	padding: 15px 24px;
 	margin-bottom: 60px;
+	padding-bottom: 100px;
+}
+
+.contact-us button {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: transparent;
+	border: 1px solid #000;
+	border-radius: 9px;
+	width: 120px;
+	padding: 7px 0 5px 0;
+	margin-top: 15px;
+	float: right;
 }
 
 .contact-us h1 {
@@ -582,7 +669,6 @@ nav ul li .active {
 }
 
 .contact-details p {
-	margin-bottom: 30px;
 }
 
 .contact-details ul.dashed > li {
@@ -814,11 +900,12 @@ nav ul li .active {
 	font-size: 12px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+	padding-bottom: 10px;
 }
 
 .feature-left hr {
 	border: 4px solid #24346D;
-	margin: 5px 0 15px 0;
+	margin: 5px 0 25px 0;
 	width: 230px;
 }
 
@@ -1273,7 +1360,7 @@ nav ul li .active {
 	font-family: Libre Baskerville;
 	line-height: 26px;
 	font-size: 15px;
-	padding: 30px 1% 60px 10px;
+	padding: 30px 1% 60px 0px;
 }
 
 /* All Cards */
@@ -1381,10 +1468,11 @@ nav ul li .active {
 	backdrop-filter: blur(4px);
 	-webkit-backdrop-filter: blur(4px);
 	        backdrop-filter: blur(4px);
+	padding-bottom: 440px;
 }
 
 .ac-text {
-	padding: 370px 0px 0px 60px;
+	padding: 70px 0px 0px 60px;
 }
 
 .ac-text h1 {
@@ -1408,9 +1496,8 @@ nav ul li .active {
 	line-height: 25px;
 	font-size: 14px;
 	color: #E9F4ED;
-	margin-right: 30%;
-	padding-top: 30px;
-	padding-bottom: 140px;
+	margin-right: 25%;
+	padding-top: 25px;
 }
 
 .grid-AC {
