@@ -227,15 +227,20 @@ nav ul li .active {
 }
 
 #cover-section-learn {
-	background: url("assets/coverphoto-learn.png") no-repeat center center;
-	background-size: cover;
-	height: 50vw;
+	background-color: #D6EADE;
 	color: #000;
+}
+
+.cover-section-photo img {
+	display: block;
+	margin: auto;
+	width: 97%;
+	padding-top: 20px;
 }
 
 .learn-cover-text {
 	padding: 60px 230px 60px 230px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.3);
 }
 
 .learn-cover-text h3 {
