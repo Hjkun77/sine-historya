@@ -781,6 +781,22 @@ nav ul li .active {
 	padding-bottom: 30px;
 }
 
+.highlights-text {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: normal;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.highlights-date {
+	font-family: Libre Franklin;
+	font-size: 21px;
+	color: #000;
+}
+
 #highlight-spanish {
 	background: #E0831E;
 	padding: 60px;
@@ -789,6 +805,19 @@ nav ul li .active {
 #highlight-spanish-cover {
 	background: #E0831E;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-spanish-cover h3 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#highlight-spanish-cover p {
+	position: absolute;
+	top: 60%;
+	left: 10%;
 }
 
 .highlights-cover {
@@ -803,6 +832,22 @@ nav ul li .active {
 #highlight-american-cover {
 	background: #24346D;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-american-cover h3 {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+}
+
+#highlight-american-cover p {
+	color: #fff;
+	position: absolute;
+	top: 60%;
+	padding-right: 332px;
+	right: 10%;
 }
 
 #highlight-japanese {
@@ -813,6 +858,19 @@ nav ul li .active {
 #highlight-japanese-cover {
 	background: #CE3000;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-japanese-cover h3 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#highlight-japanese-cover p {
+	position: absolute;
+	top: 60%;
+	left: 10%;
 }
 
 #highlight-martialLaw {
@@ -823,6 +881,27 @@ nav ul li .active {
 #highlight-martialLaw-cover {
 	background: #A50014;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-martial-right {
+	position: absolute;
+	right: 30%;
+}
+
+#highlight-martialLaw-cover h3 {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 34%;
+}
+
+#highlight-martialLaw-cover p {
+	color: #fff;
+	position: absolute;
+	top: 60%;
+	padding-right: 103px;
+	right: 34%;
 }
 
 #highlight-postMartialLaw {
@@ -833,6 +912,19 @@ nav ul li .active {
 #highlight-postMartialLaw-cover {
 	background: #256B63;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-postMartialLaw-cover h3 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#highlight-postMartialLaw-cover p {
+	position: absolute;
+	top: 60%;
+	left: 10%;
 }
 
 .highlights-button {
