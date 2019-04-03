@@ -969,6 +969,13 @@ nav ul li .active {
 	width: 65%;
 }
 
+.feature-left h3 {
+	font-family: Libre Baskerville;
+	font-weight: bold;
+	font-size: 28px;
+	margin-bottom: -20px;
+}
+
 .feature-left-img {
 	position: relative;
 }
@@ -1018,6 +1025,7 @@ nav ul li .active {
 }
 
 .feature-right {
+	padding-top: 25px;
 	padding-left: 15px;
 	padding-right: 60px;
 	width: 35%;
@@ -1674,10 +1682,6 @@ nav ul li .active {
 	text-transform: uppercase;
 }
 
-.fb img {
-
-}
-
 .fb {
 	right: 0;
 	bottom: 0;
@@ -1685,6 +1689,13 @@ nav ul li .active {
 	padding-bottom: 20px;
 	padding-right: 20px;
 
+}
+
+.small-book {
+	width: 40px;
+	position: absolute;
+	right: 24px;
+	top: 28px;
 }
 
 /* Footer */
