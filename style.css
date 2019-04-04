@@ -1201,7 +1201,7 @@ nav ul li .active {
 }
 
 .card-FF {
-	padding: 20px 17px 0px 17px;
+	padding: 20px 17px 30px 17px;
 	position: relative;
 }
 
@@ -1209,6 +1209,7 @@ nav ul li .active {
 	font-family: Libre Franklin;
 	line-height: 21px;
 	font-size: 12px;
+	padding-bottom: 25px;
 }
 
 .card-FF h3 {
@@ -1218,8 +1219,17 @@ nav ul li .active {
 	padding-bottom: 20px;
 }
 
-.card-FF img {
-	padding-top: 20px;
+.card-FF a {
+	font-family: Libre Franklin;
+	font-weight: 500;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	background-color: #D6EADE;
+	border-radius: 17px;
+	padding: 7px 30px 7px 30px;
+	text-decoration: none;
 }
 
 .column-50 {
