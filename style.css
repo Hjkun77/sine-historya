@@ -1728,12 +1728,16 @@ nav ul li .active {
 /* Footer */
 footer {
 	background: #000000;
-	padding: 45px 60px;
+	padding: 45px 60px 20px 60px;
 	color: white;
 }
 
 .footer-details {
-	width: 30%;
+	text-align: center;
+}
+
+.footer-details img {
+	width: 350px;
 }
 
 .footer-details h3 {
@@ -1743,7 +1747,12 @@ footer {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #E9F4ED;
-	margin-bottom: 8px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.footer-text {
+	padding-right: 20%;
 }
 
 .footer-details p {
@@ -1752,7 +1761,6 @@ footer {
 	font-weight: normal;
 	line-height: 23px;
 	font-size: 13px;
-	margin-bottom: 20px;
 }
 
 .footer-details h6 {
