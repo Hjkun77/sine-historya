@@ -40,7 +40,7 @@ nav ul .nav-items {
 nav ul li .nav-links {
  	display: block;
  	padding: 0px 0px;
- 	margin: 25px 60px;
+ 	margin: 25px 100px;
  	text-decoration: none;
   	font-family: Libre Franklin, serif;
   	text-transform: uppercase;
@@ -65,8 +65,8 @@ nav ul ul {
 
 nav ul .watch-dropdown {
 	padding: 30px 30px 10px 30px;
-	width: 320px;
-    right: 460px;
+	width: 350px;
+    right: 700;
 }
 
 nav ul .about-dropdown {
@@ -217,6 +217,36 @@ nav ul li .active {
 }
 
 /* COVER PHOTO */
+.cover-buttons {
+	text-align: center;
+	margin-top: -40px;
+}
+
+.cover-buttons h3 {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+.cover-buttons button {
+	font-family: Libre Franklin;
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	border: 1px solid #FE5417;
+	background-color: #FE5417;
+	padding: 10px 0px;
+	width: 250px;
+	border-radius: 55px;
+	margin: 0px 15px;
+}
 
 #cover-section {
 	background: url("assets/coverphoto.png") no-repeat center center;
