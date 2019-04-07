@@ -60,7 +60,7 @@ nav ul ul {
 	z-index: 1;
     position: absolute;
     text-align: left;
-    top: 77px;
+    top: 75px;
 }
 
 nav ul .watch-dropdown {
@@ -265,9 +265,10 @@ nav ul li .active {
 }
 
 .home-landing {
+	padding-top: 30px;
 	width: 90%;
 	margin: auto;
-	min-height: 100vh;
+	min-height: 74vh;
 }
 
 .home-landing h3 {
@@ -279,7 +280,7 @@ nav ul li .active {
 }
 
 .home-landing img {
-	width: 450px;
+	width: 420px;
 }
 
 .home-landing p {
@@ -503,7 +504,7 @@ nav ul li .active {
 }
 
 .about-cover-text {
-	padding: 105px 0 40px 0;
+	padding: 105px 0 70px 0;
 	margin: auto;
 	width: 86%;
 }
@@ -728,6 +729,67 @@ nav ul li .active {
 }
 
 /*Historical highlights */
+#historical-sort-american {
+	background: #142251;
+	padding-bottom: 77px;
+}
+
+#historical-sort-japanese {
+	background: #992603;
+	padding-bottom: 77px;
+}
+
+#historical-sort-spanish {
+	background: #CC700C;
+	padding-bottom: 77px;
+}
+
+#historical-sort-martial {
+	background: #73000E;
+	padding-bottom: 77px;
+}
+
+#historical-sort-post {
+	background: #134B44;
+	padding-bottom: 77px;
+}
+
+.historical-sort {
+	float: left;
+	padding: 20px 0px 0px 30px;
+}
+
+.historical-sort h3 {
+	font-family: Libre Franklin;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	border: 8px solid #C4C4C4;;
+	background-color: #C4C4C4;;
+	border-radius: 17px;
+	padding: 1px 10px;
+	color: #000;
+	display: inline-block;
+	padding-right: 235px;
+}
+
+.historical-sort select {
+	font-family: Libre Franklin;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; 
+	background-color: #C4C4C4;;
+	border-width: 8px 10px 7px 5px;
+	border-color: #C4C4C4;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 50px;
+	display: inline-block;
+	margin-left: -245px;
+}
+
 .highlights-nav {
 	background: white;
 }
@@ -841,6 +903,7 @@ nav ul li .active {
 
 .highlights-cover {
 	width: 100%;
+	margin-bottom: -5px;
 }
 
 #highlight-american {
@@ -1319,7 +1382,7 @@ nav ul li .active {
 }
 
 #film-focus-text {
-	margin-top: -355px;
+	margin-top: -356px;
 	background: rgba(0,0,0,0.64);
 }
 
