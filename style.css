@@ -387,6 +387,7 @@ nav ul li .active {
 .card {
 	padding: 20px 17px 150px 17px;
 	position: relative;
+	min-height: 500px;
 }
 
 .card-genre {
