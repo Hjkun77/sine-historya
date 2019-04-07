@@ -219,7 +219,6 @@ nav ul li .active {
 /* COVER PHOTO */
 .cover-buttons {
 	text-align: center;
-	margin-top: -40px;
 }
 
 .cover-buttons h3 {
@@ -809,7 +808,7 @@ nav ul li .active {
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 0.1em; 
+	letter-spacing: 0.1em;
 	background-color: #C4C4C4;;
 	border-width: 8px 10px 7px 5px;
 	border-color: #C4C4C4;
