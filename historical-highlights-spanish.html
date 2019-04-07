@@ -65,39 +65,51 @@
   </ul>
 
   <section id="highlight-spanish-cover">
+    <h3 class="highlights-text">spanish colonization</h3>
+    <p class="highlights-date">1521 - 1898</p>
     <img class="highlights-cover" src="assets/highlights/spanish.png" />
   </section>
+
+  <div id="historical-sort-spanish">
+    <div class="historical-sort">
+      <h3>browse by:</h3>
+      <select id="sortSelect" onchange="sortFunction()">
+        <option value="1">alphabetical order</option>
+        <option value="2">date produced</option>
+      </select>
+    </div>
+  </div>
 
   <section id="highlight-spanish">
     <div class="grid all-wrapper-x2">
       <article>
         <div class="card">
-          <img class="card-img" src="assets/movies/rizal.jpg">
-          <p class="card-genre spanish">Spanish Colonization</p>
-          <h3 class="card-title">Jose Rizal</h3>
+          <a href="film-in-focus-jose.html"><img class="card-img" src="assets/movies/rizal.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-jose.html">Jose Rizal</a></h3>
 
           <div class="bottom-card">
-            <p class="card-director">Nonong Buencamino</p>
+            <p class="card-director">Marilou Diaz Abaya</p>
             <p class="card-info">1998 | 2 hr 58 min</p>
             <p class="card-rating">pg-13</p>
             <p class="card-tags"><span>nation building</span><span>biopic</span><span>colonialism</span></p>
           </div>
           <div class="bottom-right-card">
-            <img class="card-stream" src="assets/icons/iflix.png"/>
+            <img class="card-stream" style="width: 40px;" src="assets/icons/iflix.png"/>
           </div>
         </div>
       </article>
 
       <article>
         <div class="card">
-          <img class="card-img" src="assets/movies/bonifacio.jpg">
-          <p class="card-genre spanish">Spanish Colonization</p>
-          <h3 class="card-title">Bonifacio: Ang Unang Pangulo</h3>
+          <a href="film-in-focus-bonifacio.html"><img class="card-img" src="assets/movies/bonifacio.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-bonifacio.html">Bonifacio: Ang Unang Pangulo</a></h3>
 
           <div class="bottom-card">
             <p class="card-director">Enzo Williams</p>
             <p class="card-info">2014 | 1 hr 40 min</p>
-            <p class="card-rating">PG-13</p>
+            <p class="card-rating">pg-13</p>
             <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
           </div>
           <div class="bottom-right-card">
@@ -108,36 +120,36 @@
 
       <article>
         <div class="card">
-          <img class="card-img" src="assets/movies/baler.jpg">
-          <p class="card-genre spanish">Spanish Colonization</p>
-          <h3 class="card-title">Baler</h3>
+          <a href="film-in-focus-baler.html"><img class="card-img" src="assets/movies/baler.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-baler.html">Baler</a></h3>
 
           <div class="bottom-card">
             <p class="card-director">Mark Meily</p>
             <p class="card-info">2008 | 1 hr 56 min</p>
-            <p class="card-rating">PG-13</p>
+            <p class="card-rating">pg-13</p>
             <p class="card-tags"><span>politics</span></p>
           </div>
           <div class="bottom-right-card">
-            <img class="card-stream" src="assets/icons/hooq.png"/>
+            <img class="card-stream" style="width: 40px;" src="assets/icons/hooq.png"/>
           </div>
         </div>
       </article>
 
       <article>
         <div class="card">
-          <img class="card-img" src="assets/movies/bayaning.jpg">
-          <p class="card-genre spanish">Spanish Colonization</p>
-          <h3 class="card-title">Bayaning Third World</h3>
+          <a href="film-in-focus-bayaning.html"><img class="card-img" src="assets/movies/bayaning.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-bayaning.html">Bayaning Third World</a></h3>
 
           <div class="bottom-card">
-            <p class="card-director">Mark De Leon</p>
+            <p class="card-director">Mike de Leon</p>
             <p class="card-info">2002 | 1 hr 33 min</p>
-            
+
             <p class="card-tags"><span>nation building</span><span>colonialism</span></p>
           </div>
           <div class="bottom-right-card">
-            <img class="card-stream" style="width: 40px;" src="assets/icons/cinema.png"/>
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
           </div>
         </div>
       </article>
@@ -145,25 +157,15 @@
     </div>
   </section>
 
-
   <footer>
     <div class="flex spaceBetween" style="margin-bottom: 16px">
       <div class="footer-details">
         <a href="/"><img src="./assets/logos/SH-footer.svg" alt="footer-logo"></a>
       </div>
-      <div class="footer-details">
+      <div class="footer-details footer-text" style="width: 100%">
         <h3>We Support Film</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, tenetur!</p>
+        <h6>For educational purposes only. © Sine Historya 2019</h6>
       </div>
-      <div class="footer-details">
-        <h3>Contact Us</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, tenetur!</p>
-      </div>
-    </div>
-
-    <div class="footer-details" style="width: 100%">
-      <h6>For educational purposes only. © Sine Historya 2019</h6>
-      <h6>Passionately made by <a href="https://www.uxsociety.org" target="_blank">User Experience Society</a></h6>
     </div>
   </footer>
 

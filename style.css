@@ -40,7 +40,7 @@ nav ul .nav-items {
 nav ul li .nav-links {
  	display: block;
  	padding: 0px 0px;
- 	margin: 25px 60px;
+ 	margin: 25px 100px;
  	text-decoration: none;
   	font-family: Libre Franklin, serif;
   	text-transform: uppercase;
@@ -60,13 +60,13 @@ nav ul ul {
 	z-index: 1;
     position: absolute;
     text-align: left;
-    top: 77px;
+    top: 75px;
 }
 
 nav ul .watch-dropdown {
 	padding: 30px 30px 10px 30px;
-	width: 320px;
-    right: 460px;
+	width: 350px;
+    right: 700;
 }
 
 nav ul .about-dropdown {
@@ -217,6 +217,35 @@ nav ul li .active {
 }
 
 /* COVER PHOTO */
+.cover-buttons {
+	text-align: center;
+}
+
+.cover-buttons h3 {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+.cover-buttons button {
+	font-family: Libre Franklin;
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	border: 1px solid #FE5417;
+	background-color: #FE5417;
+	padding: 10px 0px;
+	width: 250px;
+	border-radius: 55px;
+	margin: 0px 15px;
+}
 
 #cover-section {
 	background: url("assets/coverphoto.png") no-repeat center center;
@@ -227,15 +256,20 @@ nav ul li .active {
 }
 
 #cover-section-learn {
-	background: url("assets/coverphoto-learn.png") no-repeat center center;
-	background-size: cover;
-	height: 50vw;
+	background-color: #D6EADE;
 	color: #000;
+}
+
+.cover-section-photo img {
+	display: block;
+	margin: auto;
+	width: 97%;
+	padding-top: 20px;
 }
 
 .learn-cover-text {
 	padding: 60px 230px 60px 230px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.3);
 }
 
 .learn-cover-text h3 {
@@ -260,9 +294,10 @@ nav ul li .active {
 }
 
 .home-landing {
+	padding-top: 30px;
 	width: 90%;
 	margin: auto;
-	min-height: 100vh;
+	min-height: 74vh;
 }
 
 .home-landing h3 {
@@ -274,7 +309,7 @@ nav ul li .active {
 }
 
 .home-landing img {
-	width: 450px;
+	width: 420px;
 }
 
 .home-landing p {
@@ -288,7 +323,6 @@ nav ul li .active {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .home-button h2 {
 	font-family: 'Libre Franklin',sans-serif;
 	font-weight: bold;
@@ -300,7 +334,6 @@ nav ul li .active {
 	padding-top: 20px;
 	margin-bottom: 30px;
 }
-
 .home-button button {
 	background: #FE5417;
 	padding: 13px 16px;
@@ -315,7 +348,6 @@ nav ul li .active {
 	width: 250px;
 	color: #000000;
 }
-
 .home-button button a {
 	text-decoration: none;
 } */
@@ -354,6 +386,7 @@ nav ul li .active {
 .card {
 	padding: 20px 17px 150px 17px;
 	position: relative;
+	min-height: 500px;
 }
 
 .card-genre {
@@ -501,7 +534,7 @@ nav ul li .active {
 }
 
 .about-cover-text {
-	padding: 105px 0 40px 0;
+	padding: 105px 0 70px 0;
 	margin: auto;
 	width: 86%;
 }
@@ -623,11 +656,18 @@ nav ul li .active {
 	font-size: 15px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	padding-bottom: 2px;
-	border-bottom: 3px solid #000000;
+	padding: 15px 15px 15px 15px;
+	border: 0.5px solid #000000;
 	color: #000000;
-	width: 41%;
+	background-color: #E9F4ED;
+	width: 50%;
+	border-radius: 35px;
 }
+
+.remember {
+	background: url("assets/about/remember.png") no-repeat center center;
+}
+
 
 /*About - Contact Us */
 .contact-us {
@@ -668,7 +708,9 @@ nav ul li .active {
 	color: #000000;
 }
 
-.contact-details p {
+.contact-details ul li {
+	list-style-type: disc;
+	margin-left: 40px;
 }
 
 .contact-details ul.dashed > li {
@@ -676,8 +718,16 @@ nav ul li .active {
 }
 
 .contact-details ul.dashed > li:before {
-	content: "-";
+	content: "•";
  text-indent: -5px;
+}
+
+.msg {
+	font-family: Libre Baskerville;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
 }
 
 .formGroup {
@@ -709,6 +759,67 @@ nav ul li .active {
 }
 
 /*Historical highlights */
+#historical-sort-american {
+	background: #142251;
+	padding-bottom: 77px;
+}
+
+#historical-sort-japanese {
+	background: #992603;
+	padding-bottom: 77px;
+}
+
+#historical-sort-spanish {
+	background: #CC700C;
+	padding-bottom: 77px;
+}
+
+#historical-sort-martial {
+	background: #73000E;
+	padding-bottom: 77px;
+}
+
+#historical-sort-post {
+	background: #134B44;
+	padding-bottom: 77px;
+}
+
+.historical-sort {
+	float: left;
+	padding: 20px 0px 0px 30px;
+}
+
+.historical-sort h3 {
+	font-family: Libre Franklin;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	border: 8px solid #C4C4C4;;
+	background-color: #C4C4C4;;
+	border-radius: 17px;
+	padding: 1px 10px;
+	color: #000;
+	display: inline-block;
+	padding-right: 235px;
+}
+
+.historical-sort select {
+	font-family: Libre Franklin;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	background-color: #C4C4C4;;
+	border-width: 8px 10px 7px 5px;
+	border-color: #C4C4C4;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 50px;
+	display: inline-block;
+	margin-left: -245px;
+}
+
 .highlights-nav {
 	background: white;
 }
@@ -781,6 +892,22 @@ nav ul li .active {
 	padding-bottom: 30px;
 }
 
+.highlights-text {
+	font-family: Libre Franklin;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: normal;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.highlights-date {
+	font-family: Libre Franklin;
+	font-size: 21px;
+	color: #000;
+}
+
 #highlight-spanish {
 	background: #E0831E;
 	padding: 60px;
@@ -789,10 +916,24 @@ nav ul li .active {
 #highlight-spanish-cover {
 	background: #E0831E;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-spanish-cover h3 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#highlight-spanish-cover p {
+	position: absolute;
+	top: 60%;
+	left: 10%;
 }
 
 .highlights-cover {
 	width: 100%;
+	margin-bottom: -5px;
 }
 
 #highlight-american {
@@ -803,6 +944,22 @@ nav ul li .active {
 #highlight-american-cover {
 	background: #24346D;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-american-cover h3 {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+}
+
+#highlight-american-cover p {
+	color: #fff;
+	position: absolute;
+	top: 60%;
+	padding-right: 332px;
+	right: 10%;
 }
 
 #highlight-japanese {
@@ -813,6 +970,19 @@ nav ul li .active {
 #highlight-japanese-cover {
 	background: #CE3000;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-japanese-cover h3 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#highlight-japanese-cover p {
+	position: absolute;
+	top: 60%;
+	left: 10%;
 }
 
 #highlight-martialLaw {
@@ -823,6 +993,27 @@ nav ul li .active {
 #highlight-martialLaw-cover {
 	background: #A50014;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-martial-right {
+	position: absolute;
+	right: 30%;
+}
+
+#highlight-martialLaw-cover h3 {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 34%;
+}
+
+#highlight-martialLaw-cover p {
+	color: #fff;
+	position: absolute;
+	top: 60%;
+	padding-right: 103px;
+	right: 34%;
 }
 
 #highlight-postMartialLaw {
@@ -833,6 +1024,19 @@ nav ul li .active {
 #highlight-postMartialLaw-cover {
 	background: #256B63;
 	padding: 60px 0 0 0;
+	position: relative;
+}
+
+#highlight-postMartialLaw-cover h3 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#highlight-postMartialLaw-cover p {
+	position: absolute;
+	top: 60%;
+	left: 10%;
 }
 
 .highlights-button {
@@ -873,6 +1077,13 @@ nav ul li .active {
 	padding-left: 60px;
 	padding-right: 15px;
 	width: 65%;
+}
+
+.feature-left h3 {
+	font-family: Libre Baskerville;
+	font-weight: bold;
+	font-size: 28px;
+	margin-bottom: -20px;
 }
 
 .feature-left-img {
@@ -924,6 +1135,7 @@ nav ul li .active {
 }
 
 .feature-right {
+	padding-top: 25px;
 	padding-left: 15px;
 	padding-right: 60px;
 	width: 35%;
@@ -1099,7 +1311,7 @@ nav ul li .active {
 }
 
 .card-FF {
-	padding: 20px 17px 0px 17px;
+	padding: 20px 17px 30px 17px;
 	position: relative;
 }
 
@@ -1107,6 +1319,7 @@ nav ul li .active {
 	font-family: Libre Franklin;
 	line-height: 21px;
 	font-size: 12px;
+	padding-bottom: 25px;
 }
 
 .card-FF h3 {
@@ -1116,8 +1329,17 @@ nav ul li .active {
 	padding-bottom: 20px;
 }
 
-.card-FF img {
-	padding-top: 20px;
+.card-FF a {
+	font-family: Libre Franklin;
+	font-weight: 500;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	background-color: #D6EADE;
+	border-radius: 17px;
+	padding: 7px 30px 7px 30px;
+	text-decoration: none;
 }
 
 .column-50 {
@@ -1190,7 +1412,7 @@ nav ul li .active {
 }
 
 #film-focus-text {
-	margin-top: -355px;
+	margin-top: -356px;
 	background: rgba(0,0,0,0.64);
 }
 
@@ -1349,11 +1571,7 @@ nav ul li .active {
 	font-size: 30px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	color: #FE5417;
-	padding-bottom: 10px;
-	padding-top: 20px;
-	border-bottom: 5px solid;
-	width: 400px;
+	padding-top: 50px;
 }
 
 .learning-modules p {
@@ -1584,10 +1802,6 @@ nav ul li .active {
 	text-transform: uppercase;
 }
 
-.fb img {
-
-}
-
 .fb {
 	right: 0;
 	bottom: 0;
@@ -1597,15 +1811,26 @@ nav ul li .active {
 
 }
 
+.small-book {
+	width: 40px;
+	position: absolute;
+	right: 24px;
+	top: 28px;
+}
+
 /* Footer */
 footer {
 	background: #000000;
-	padding: 45px 60px;
+	padding: 45px 60px 20px 60px;
 	color: white;
 }
 
 .footer-details {
-	width: 30%;
+	text-align: center;
+}
+
+.footer-details img {
+	width: 350px;
 }
 
 .footer-details h3 {
@@ -1615,7 +1840,12 @@ footer {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #E9F4ED;
-	margin-bottom: 8px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.footer-text {
+	padding-right: 20%;
 }
 
 .footer-details p {
@@ -1624,7 +1854,6 @@ footer {
 	font-weight: normal;
 	line-height: 23px;
 	font-size: 13px;
-	margin-bottom: 20px;
 }
 
 .footer-details h6 {
