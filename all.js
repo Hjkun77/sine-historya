@@ -2,6 +2,7 @@ const AishiteCard = document.querySelector('#aishite-card')
 const LarawanCard = document.querySelector('#larawan-card')
 const BalangigaCard = document.querySelector('#balangiga-card')
 const BalerCard = document.querySelector('#baler-card')
+const BatasCard = document.querySelector('#batas-card')
 const ThirdWorldCard = document.querySelector('#thirdWorld-card')
 const Batch81Card = document.querySelector('#batch81-card')
 const BonifacioCard = document.querySelector('#bonifacio-card')
@@ -17,12 +18,14 @@ const NinoyCard = document.querySelector('#ninoy-card')
 const OroCard = document.querySelector('#oro-card')
 const SakayCard = document.querySelector('#sakay-card')
 const SisterCard = document.querySelector('#sister-card')
+const TuPugCard = document.querySelector('#tuPug-card')
 const WalangDiyosCard = document.querySelector('#walangDiyos-card')
 
 
 const AishiteCard1 = document.querySelector('#aishite-card1')
 const LarawanCard1 = document.querySelector('#larawan-card1')
 const BalangigaCard1 = document.querySelector('#balangiga-card1')
+const BatasCard1 = document.querySelector('#batas-card1')
 const BalerCard1 = document.querySelector('#baler-card1')
 const ThirdWorldCard1 = document.querySelector('#thirdWorld-card1')
 const Batch81Card1 = document.querySelector('#batch81-card1')
@@ -39,6 +42,7 @@ const NinoyCard1 = document.querySelector('#ninoy-card1')
 const OroCard1 = document.querySelector('#oro-card1')
 const SakayCard1 = document.querySelector('#sakay-card1')
 const SisterCard1 = document.querySelector('#sister-card1')
+const TuPugCard1 = document.querySelector('#tuPug-card1')
 const WalangDiyosCard1 = document.querySelector('#walangDiyos-card1')
 
 var SortValue = document.getElementById('sortSelect').value
@@ -54,6 +58,7 @@ function sortFunction() {
       AishiteCard.style.display = 'none'
       LarawanCard.style.display = 'none'
       BalangigaCard.style.display = 'none'
+      BatasCard.style.display = 'none'
       BalerCard.style.display = 'none'
       ThirdWorldCard.style.display = 'none'
       Batch81Card.style.display = 'none'
@@ -70,11 +75,13 @@ function sortFunction() {
       OroCard.style.display = 'none'
       SakayCard.style.display = 'none'
       SisterCard.style.display = 'none'
+      TuPugCard.style.none = 'none'
       WalangDiyosCard.style.display = 'none'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.display = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -91,11 +98,13 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     } else if (StreamingValue ==="2") {
       AishiteCard.style.display = 'none'
       LarawanCard.style.display = 'none'
       BalangigaCard.style.display = 'none'
+      BatasCard.style.display = 'none'
       BalerCard.style.display = 'none'
       ThirdWorldCard.style.display = 'none'
       Batch81Card.style.display = 'none'
@@ -112,11 +121,13 @@ function sortFunction() {
       OroCard.style.display = 'none'
       SakayCard.style.display = 'none'
       SisterCard.style.display = 'none'
+      TuPugCard.style.none = 'none'
       WalangDiyosCard.style.display = 'none'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.display = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -133,11 +144,13 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     } else if (StreamingValue === "3") {
       AishiteCard.style.display = 'block'
       LarawanCard.style.display = 'none'
       BalangigaCard.style.display = 'none'
+      BatasCard.style.none = 'none'
       BalerCard.style.display = 'block'
       ThirdWorldCard.style.display = 'none'
       Batch81Card.style.display = 'none'
@@ -154,11 +167,13 @@ function sortFunction() {
       OroCard.style.display = 'none'
       SakayCard.style.display = 'none'
       SisterCard.style.display = 'block'
+      TuPugCard.style.none = 'none'
       WalangDiyosCard.style.display = 'none'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.none = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -175,11 +190,13 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     } else if (StreamingValue === "4") {
       AishiteCard.style.display = 'none'
       LarawanCard.style.display = 'none'
       BalangigaCard.style.display = 'none'
+      BatasCard.style.none = 'none'
       BalerCard.style.display = 'none'
       ThirdWorldCard.style.display = 'none'
       Batch81Card.style.display = 'none'
@@ -196,11 +213,13 @@ function sortFunction() {
       OroCard.style.display = 'none'
       SakayCard.style.display = 'none'
       SisterCard.style.display = 'none'
+      TuPugCard.style.none = 'none'
       WalangDiyosCard.style.display = 'none'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.none = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -217,11 +236,13 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     } else if (StreamingValue === "5") {
       AishiteCard.style.display = 'none'
       LarawanCard.style.display = 'none'
       BalangigaCard.style.display = 'none'
+      BatasCard.style.none = 'none'
       BalerCard.style.display = 'none'
       ThirdWorldCard.style.display = 'none'
       Batch81Card.style.display = 'none'
@@ -238,11 +259,13 @@ function sortFunction() {
       OroCard.style.display = 'block'
       SakayCard.style.display = 'none'
       SisterCard.style.display = 'none'
+      TuPugCard.style.none = 'none'
       WalangDiyosCard.style.display = 'block'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.none = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -259,11 +282,13 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     } else if (StreamingValue === "6") {
       AishiteCard.style.display = 'none'
       LarawanCard.style.display = 'none'
       BalangigaCard.style.display = 'none'
+      BatasCard.style.none = 'none'
       BalerCard.style.display = 'none'
       ThirdWorldCard.style.display = 'none'
       Batch81Card.style.display = 'none'
@@ -280,11 +305,13 @@ function sortFunction() {
       OroCard.style.display = 'none'
       SakayCard.style.display = 'block'
       SisterCard.style.display = 'none'
+      TuPugCard.style.none = 'none'
       WalangDiyosCard.style.display = 'none'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.none = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -301,11 +328,13 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     } else if (MTRCBValue === "1") {
       AishiteCard.style.display = 'none'
       LarawanCard.style.display = 'none'
       BalangigaCard.style.display = 'none'
+      BatasCard.style.none = 'none'
       BalerCard.style.display = 'none'
       ThirdWorldCard.style.display = 'none'
       Batch81Card.style.display = 'none'
@@ -322,11 +351,13 @@ function sortFunction() {
       OroCard.style.display = 'none'
       SakayCard.style.display = 'none'
       SisterCard.style.display = 'block'
+      TuPugCard.style.none = 'none'
       WalangDiyosCard.style.display = 'none'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.none = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -343,11 +374,13 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     } else if (MTRCBValue === "2") {
       AishiteCard.style.display = 'block'
       LarawanCard.style.display = 'block'
       BalangigaCard.style.display = 'none'
+      BatasCard.style.none = 'none'
       BalerCard.style.display = 'block'
       ThirdWorldCard.style.display = 'block'
       Batch81Card.style.display = 'none'
@@ -364,11 +397,13 @@ function sortFunction() {
       OroCard.style.display = 'none'
       SakayCard.style.display = 'block'
       SisterCard.style.display = 'none'
+      TuPugCard.style.none = 'none'
       WalangDiyosCard.style.display = 'block'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.none = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -385,11 +420,13 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     } else {
       AishiteCard.style.display = 'block'
       LarawanCard.style.display = 'block'
       BalangigaCard.style.display = 'block'
+      BatasCard.style.none = 'block'
       BalerCard.style.display = 'block'
       ThirdWorldCard.style.display = 'block'
       Batch81Card.style.display = 'block'
@@ -406,11 +443,13 @@ function sortFunction() {
       OroCard.style.display = 'block'
       SakayCard.style.display = 'block'
       SisterCard.style.display = 'block'
+      TuPugCard.style.none = 'block'
       WalangDiyosCard.style.display = 'block'
 
       AishiteCard1.style.display = 'none'
       LarawanCard1.style.display = 'none'
       BalangigaCard1.style.display = 'none'
+      BatasCard1.style.none = 'none'
       BalerCard1.style.display = 'none'
       ThirdWorldCard1.style.display = 'none'
       Batch81Card1.style.display = 'none'
@@ -427,6 +466,7 @@ function sortFunction() {
       OroCard1.style.display = 'none'
       SakayCard1.style.display = 'none'
       SisterCard1.style.display = 'none'
+      TuPugCard1.style.none = 'none'
       WalangDiyosCard1.style.display = 'none'
     }
 
@@ -732,50 +772,103 @@ function sortFunction() {
 
 function familyDynamics() {
   SortValue = document.getElementById('sortSelect').value
-  MRTCBValue = document.querySelector('#mrtcbSelect').value
+  MTRCBValue = document.querySelector('#mtrcbSelect').value
   StreamingValue = document.querySelector('#streamingSelect').value
   if (SortValue === "1") {
-    AishiteCard.style.display = 'none'
-    LarawanCard.style.display = 'block'
-    BalangigaCard.style.display = 'block'
-    BalerCard.style.display = 'none'
-    ThirdWorldCard.style.display = 'none'
-    Batch81Card.style.display = 'none'
-    BonifacioCard.style.display = 'none'
-    Dekada70Card.style.display = 'block'
-    GoyoCard.style.display = 'none'
-    GiveUpCard.style.display = 'none'
-    LunaCard.style.display = 'none'
-    RizalCard.style.display = 'none'
-    LiwayCard.style.display = 'block'
-    GamuGamoCard.style.display = 'block'
-    MLCard.style.display = 'none'
-    NinoyCard.style.display = 'none'
-    OroCard.style.display = 'block'
-    SakayCard.style.display = 'none'
-    SisterCard.style.display = 'none'
-    WalangDiyosCard.style.display = 'block'
+    if (StreamingValue === "1" || StreamingValue == "2") {
+      AishiteCard.style.display = 'none'
+      LarawanCard.style.display = 'none'
+      BalangigaCard.style.display = 'none'
+      BalerCard.style.display = 'none'
+      ThirdWorldCard.style.display = 'none'
+      Batch81Card.style.display = 'none'
+      BonifacioCard.style.display = 'none'
+      Dekada70Card.style.display = 'none'
+      GoyoCard.style.display = 'none'
+      GiveUpCard.style.display = 'none'
+      LunaCard.style.display = 'none'
+      RizalCard.style.display = 'none'
+      LiwayCard.style.display = 'none'
+      GamuGamoCard.style.display = 'none'
+      MLCard.style.display = 'none'
+      NinoyCard.style.display = 'none'
+      OroCard.style.display = 'none'
+      SakayCard.style.display = 'none'
+      SisterCard.style.display = 'none'
+      WalangDiyosCard.style.display = 'none'
 
-    AishiteCard1.style.display = 'none'
-    LarawanCard1.style.display = 'none'
-    BalangigaCard1.style.display = 'none'
-    BalerCard1.style.display = 'none'
-    ThirdWorldCard1.style.display = 'none'
-    Batch81Card1.style.display = 'none'
-    BonifacioCard1.style.display = 'none'
-    Dekada70Card1.style.display = 'none'
-    GoyoCard1.style.display = 'none'
-    GiveUpCard1.style.display = 'none'
-    LunaCard1.style.display = 'none'
-    RizalCard1.style.display = 'none'
-    LiwayCard1.style.display = 'none'
-    GamuGamoCard1.style.display = 'none'
-    MLCard1.style.display = 'none'
-    NinoyCard1.style.display = 'none'
-    OroCard1.style.display = 'none'
-    SakayCard1.style.display = 'none'
-    SisterCard1.style.display = 'none'
-    WalangDiyosCard1.style.display = 'none'
+      AishiteCard1.style.display = 'none'
+      LarawanCard1.style.display = 'none'
+      BalangigaCard1.style.display = 'none'
+      BalerCard1.style.display = 'none'
+      ThirdWorldCard1.style.display = 'none'
+      Batch81Card1.style.display = 'none'
+      BonifacioCard1.style.display = 'none'
+      Dekada70Card1.style.display = 'none'
+      GoyoCard1.style.display = 'none'
+      GiveUpCard1.style.display = 'none'
+      LunaCard1.style.display = 'none'
+      RizalCard1.style.display = 'none'
+      LiwayCard1.style.display = 'none'
+      GamuGamoCard1.style.display = 'none'
+      MLCard1.style.display = 'none'
+      NinoyCard1.style.display = 'none'
+      OroCard1.style.display = 'none'
+      SakayCard1.style.display = 'none'
+      SisterCard1.style.display = 'none'
+      WalangDiyosCard1.style.display = 'none'
+    } else if (StreamingValue === "3") {
+
+    } else if (StreamingValue === "3") {
+
+    } else if (StreamingValue === "4") {
+
+    } else if (StreamingValue === "5") {
+
+    } else if (StreamingValue === "6") {
+
+    }
+    // AishiteCard.style.display = 'none'
+    // LarawanCard.style.display = 'block'
+    // BalangigaCard.style.display = 'block'
+    // BalerCard.style.display = 'none'
+    // ThirdWorldCard.style.display = 'none'
+    // Batch81Card.style.display = 'none'
+    // BonifacioCard.style.display = 'none'
+    // Dekada70Card.style.display = 'block'
+    // GoyoCard.style.display = 'none'
+    // GiveUpCard.style.display = 'none'
+    // LunaCard.style.display = 'none'
+    // RizalCard.style.display = 'none'
+    // LiwayCard.style.display = 'block'
+    // GamuGamoCard.style.display = 'block'
+    // MLCard.style.display = 'none'
+    // NinoyCard.style.display = 'none'
+    // OroCard.style.display = 'block'
+    // SakayCard.style.display = 'none'
+    // SisterCard.style.display = 'none'
+    // WalangDiyosCard.style.display = 'block'
+    //
+    // AishiteCard1.style.display = 'none'
+    // LarawanCard1.style.display = 'none'
+    // BalangigaCard1.style.display = 'none'
+    // BalerCard1.style.display = 'none'
+    // ThirdWorldCard1.style.display = 'none'
+    // Batch81Card1.style.display = 'none'
+    // BonifacioCard1.style.display = 'none'
+    // Dekada70Card1.style.display = 'none'
+    // GoyoCard1.style.display = 'none'
+    // GiveUpCard1.style.display = 'none'
+    // LunaCard1.style.display = 'none'
+    // RizalCard1.style.display = 'none'
+    // LiwayCard1.style.display = 'none'
+    // GamuGamoCard1.style.display = 'none'
+    // MLCard1.style.display = 'none'
+    // NinoyCard1.style.display = 'none'
+    // OroCard1.style.display = 'none'
+    // SakayCard1.style.display = 'none'
+    // SisterCard1.style.display = 'none'
+    // WalangDiyosCard1.style.display = 'none'
   } else if (SortValue === "2") {
     AishiteCard1.style.display = 'none'
     LarawanCard1.style.display = 'block'

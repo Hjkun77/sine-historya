@@ -669,7 +669,6 @@ nav ul li .active {
 	background: url("assets/about/remember.png") no-repeat center center;
 }
 
-
 /*About - Contact Us */
 .contact-us {
 	padding: 15px 24px;
@@ -1204,78 +1203,99 @@ nav ul li .active {
 }
 
 #film-focus-luna {
+	min-height: 100vh;
 	background: url("assets/luna-cover.png") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-goyo {
+	min-height: 100vh;
 	background: url("assets/movies/goyo.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-jose {
+	min-height: 100vh;
 	background: url("assets/movies/jose-cover.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-sakay {
+	min-height: 100vh;
 	background: url("assets/movies/sakay.png") no-repeat center center;
 	background-size: cover;
 }
+
 #film-focus-sister {
+	min-height: 100vh;
 	background: url("assets/movies/sister.png") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-liway {
+	min-height: 100vh;
 	background: url("assets/movies/liway.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-oro {
+	min-height: 100vh;
 	background: url("assets/movies/oro.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-larawan {
+	min-height: 100vh;
 	background: url("assets/movies/larawan.png") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-dekada {
+	min-height: 100vh;
 	background: url("assets/movies/dekada70.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-bayaning {
+	min-height: 100vh;
 	background: url("assets/movies/bayaning.png") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-aishite {
+	min-height: 100vh;
 	background: url("assets/movies/aishite.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-giveup {
+	min-height: 100vh;
 	background: url("assets/movies/giveup.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-batas {
+	min-height: 100vh;
 	background: url("assets/movies/batas.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-ninoy {
+	min-height: 100vh;
 	background: url("assets/movies/ninoy.png") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-ml {
+	min-height: 100vh;
 	background: url("assets/movies/ml.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-bonifacio {
+	min-height: 100vh;
 	background: url("assets/movies/bonifacio.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-tatlong {
+	min-height: 100vh;
 	background: url("assets/movies/tatlong.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-balangiga {
+	min-height: 100vh;
 	background: url("assets/movies/balangiga.png") no-repeat center center;
 	background-size: cover;
 }
+
 #film-focus-batch81 {
+	min-height: 100vh;
 	background: url("assets/movies/batch81.jpg") no-repeat center center;
 	background-size: cover;
 }
@@ -1283,11 +1303,14 @@ nav ul li .active {
 	background: url("assets/movies/gamugamo.jpg") no-repeat center center;
 	background-size: cover;
 }
+
 #film-focus-baler {
+	min-height: 100vh;
 	background: url("assets/movies/baler.jpg") no-repeat center center;
 	background-size: cover;
 }
 #film-focus-tupug {
+	min-height: 100vh;
 	background: url("assets/movies/tupug.png") no-repeat center center;
 	background-size: cover;
 }
