@@ -395,6 +395,10 @@ nav ul li .active {
 	min-height: 500px;
 }
 
+.card-LM {
+	min-height: 200px;
+}
+
 .card-genre {
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 10px;
@@ -1596,6 +1600,7 @@ nav ul li .active {
 
 .card-img-LM {
 	width: 100%;
+	height: 350px;
 }
 
 .learning-modules h1 {
