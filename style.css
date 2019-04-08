@@ -241,10 +241,11 @@ nav ul li .active {
 	text-transform: uppercase;
 	border: 1px solid #FE5417;
 	background-color: #FE5417;
-	padding: 10px 0px;
+	padding: 15px 0px;
 	width: 250px;
 	border-radius: 55px;
-	margin: 0px 15px;
+	font-weight: 800px;
+	margin: 0px 15px
 }
 
 .cover-buttons button:hover {
