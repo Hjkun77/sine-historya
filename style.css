@@ -1578,6 +1578,7 @@ nav ul li .active {
 
 /* Learning Modules */
 .grid-LM {
+	position: relative;
   	display: grid;
   	grid-template-columns: repeat(2, 1fr);
   	grid-gap: 20px;
@@ -1851,6 +1852,13 @@ nav ul li .active {
 
 .small-book {
 	width: 40px;
+	position: absolute;
+	right: 24px;
+	top: 28px;
+}
+
+.medium-book {
+	width: 80px;
 	position: absolute;
 	right: 24px;
 	top: 28px;
