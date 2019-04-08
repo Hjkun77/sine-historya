@@ -10,6 +10,7 @@
  <!-- <meta property="og:image" content="http://admu.uxsociety.org/uxnchill/uxchill-image.png"> -->
   <meta property="og:description" content="Inya de Vera's thesis project, an informative website that promotes Filipino movies, in partial fulfillment of AB Information Design">
 
+  <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="style.css">
 
@@ -58,12 +59,12 @@
   </nav>
 
   <section id="cover-section">
-    <div class="home-landing">
+    <div class="home-landing animated fadeIn">
       <h3>welcome to</h3>
       <img src="assets/logos/sine-historya.png" style="margin-left:-38px;"/>
     </div>
 
-    <div class="cover-buttons">
+    <div class="cover-buttons animated fadeIn">
       <h3>Browse By</h3>
       <a href="historical-highlights.html"><button>History Highlights</button></a>
       <a href="all-cards.html"><button>Subject</button></a>
@@ -299,5 +300,9 @@
 
   <script src="jquery.min.js" charset="utf-8"></script>
   <script src="script.js" charset="utf-8"></script>
+  <script src="wow.min.js" charset="utf-8"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>
