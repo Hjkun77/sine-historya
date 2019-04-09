@@ -73,7 +73,7 @@
   <div id="historical-sort-post">
     <div class="historical-sort">
       <h3>browse by:</h3>
-      <select id="sortSelect" onchange="sortFunction()">
+      <select id="postMLSelect" onchange="postMLSort()">
         <option value="1">alphabetical order</option>
         <option value="2">date produced</option>
       </select>
@@ -82,7 +82,7 @@
 
   <section id="highlight-postMartialLaw">
     <div class="grid all-wrapper-x2">
-      <article>
+      <article id="postML-give">
         <div class="card">
           <a href="film-in-focus-giveup.html"><img class="small-book" src="assets/icons/book.png"/></a>
           <a href="film-in-focus-giveup.html"><img class="card-img" src="assets/movies/giveup.jpg"></a>
@@ -101,25 +101,7 @@
         </div>
       </article>
 
-      <article>
-        <div class="card">
-          <a href="film-in-focus-sister.html"><img class="card-img" src="assets/movies/sister.jpg"></a>
-          <p class="card-genre post">post martial law</p>
-          <h3 class="card-title"><a href="film-in-focus-sister.html">Sister Stella</a></h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Mike De Leon</p>
-            <p class="card-info">1984 | 1 hr 36 min</p>
-            <p class="card-rating">g</p>
-            <p class="card-tags"><span>Women</span><span>politics</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <a href="https://m.hooq.tv/movies/b0bd2caa-3270-47bd-884e-70b40253e521"><img class="card-stream" style="width: 40px;" src="assets/icons/hooq.png"/></a>
-          </div>
-        </div>
-      </article>
-
-      <article>
+      <article id="postML-ninoy">
         <div class="card">
           <a href="film-in-focus-ninoy.html"><img class="card-img" src="assets/movies/ninoy.jpg"></a>
           <p class="card-genre post">post martial law</p>
@@ -137,7 +119,101 @@
         </div>
       </article>
 
-      <article>
+      <article id="postML-sister">
+        <div class="card">
+          <a href="film-in-focus-sister.html"><img class="card-img" src="assets/movies/sister.jpg"></a>
+          <p class="card-genre post">post martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-sister.html">Sister Stella</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Mike De Leon</p>
+            <p class="card-info">1984 | 1 hr 36 min</p>
+            <p class="card-rating">g</p>
+            <p class="card-tags"><span>Women</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://m.hooq.tv/movies/b0bd2caa-3270-47bd-884e-70b40253e521"><img class="card-stream" style="width: 40px;" src="assets/icons/hooq.png"/></a>
+          </div>
+        </div>
+      </article>
+
+
+
+      <article id="postML-tupug">
+        <div class="card">
+          <a href="film-in-focus-tupug.html"><img class="card-img" src="assets/movies/tupug.png"></a>
+          <p class="card-genre post">post martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-tupug.html">Tu Pug Imatuy (Right to Kill)</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Arbi Barbarona</p>
+            <p class="card-info">2017 | 1 hr 30 min</p>
+            <p class="card-rating">mtrcb</p>
+            <p class="card-tags"><span>family dynamics</span><span>human rights</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 40px;" src="assets/icons/vimeo.png"/>
+          </div>
+        </div>
+      </article>
+
+      <!-- Date Produced -->
+      <article id="postML-sister1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-sister.html"><img class="card-img" src="assets/movies/sister.jpg"></a>
+          <p class="card-genre post">post martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-sister.html">Sister Stella</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Mike De Leon</p>
+            <p class="card-info">1984 | 1 hr 36 min</p>
+            <p class="card-rating">g</p>
+            <p class="card-tags"><span>Women</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://m.hooq.tv/movies/b0bd2caa-3270-47bd-884e-70b40253e521"><img class="card-stream" style="width: 40px;" src="assets/icons/hooq.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="postML-ninoy1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-ninoy.html"><img class="card-img" src="assets/movies/ninoy.jpg"></a>
+          <p class="card-genre post">post martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-ninoy.html">Ninoy Aquino and the Rise of People Power</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Oliver Ledbury</p>
+            <p class="card-info" style="float: none;">2010 | 57 min</p>
+
+            <p class="card-tags"><span>Nation building</span><span>Documentary</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://www.youtube.com/watch?v=X7XqDAtHFwk"><img class="card-stream" style="width: 40px;" src="assets/icons/youtube.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="postML-give1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-giveup.html"><img class="small-book" src="assets/icons/book.png"/></a>
+          <a href="film-in-focus-giveup.html"><img class="card-img" src="assets/movies/giveup.jpg"></a>
+          <p class="card-genre post">Post martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-giveup.html">Give Up Tomorrow</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Michael Collins</p>
+            <p class="card-info">2011 | 1 hr 35 min</p>
+
+            <p class="card-tags"><span>human rights</span><span>documentary</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://www.youtube.com/watch?v=7UHQqM8f50Y"><img class="card-stream" style="width: 40px;" src="assets/icons/youtube.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="postML-tupug1" style="display: none">
         <div class="card">
           <a href="film-in-focus-tupug.html"><img class="card-img" src="assets/movies/tupug.png"></a>
           <p class="card-genre post">post martial law</p>
@@ -157,6 +233,7 @@
     </div>
   </section>
 
+
   <footer>
     <div class="flex spaceBetween" style="margin-bottom: 16px">
       <div class="footer-details">
@@ -169,6 +246,42 @@
     </div>
   </footer>
 
-  <script src="script.js" charset="utf-8"></script>
+  <script>
+  const PostMLValue = document.querySelector('#postMLSelect').value
+  const Give = document.querySelector("#postML-give");
+  const Ninoy = document.querySelector("#postML-ninoy");
+  const Sister = document.querySelector("#postML-sister");
+  const Tupug = document.querySelector("#postML-tupug");
+
+  const Give1 = document.querySelector("#postML-give1");
+  const Ninoy1 = document.querySelector("#postML-ninoy1");
+  const Sister1 = document.querySelector("#postML-sister1");
+  const Tupug1 = document.querySelector("#postML-tupug1");
+
+  function postMLSort() {
+    const PostMLValue = document.querySelector('#postMLSelect').value
+    if (PostMLValue === "1") {
+      Give.style.display = "block"
+      Ninoy.style.display = "block"
+      Sister.style.display = "block"
+      Tupug.style.display = "block"
+
+      Give1.style.display = "none"
+      Ninoy1.style.display = "none"
+      Sister1.style.display = "none"
+      Tupug1.style.display = "none"
+    } else {
+      Give1.style.display = "block"
+      Ninoy1.style.display = "block"
+      Sister1.style.display = "block"
+      Tupug1.style.display = "block"
+
+      Give.style.display = "none"
+      Ninoy.style.display = "none"
+      Sister.style.display = "none"
+      Tupug.style.display = "none"
+    }
+  }
+  </script>
 </body>
 </html>

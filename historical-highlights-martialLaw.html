@@ -73,7 +73,7 @@
   <div id="historical-sort-martial">
     <div class="historical-sort">
       <h3>browse by:</h3>
-      <select id="sortSelect" onchange="sortFunction()">
+      <select id="mlSelect" onchange="mlSort()">
         <option value="1">alphabetical order</option>
         <option value="2">date produced</option>
       </select>
@@ -82,17 +82,36 @@
 
   <section id="highlight-martialLaw">
     <div class="grid all-wrapper-x2">
-      <article>
+      <article id="ml-batas">
         <div class="card">
-          <a href="film-in-focus-liway.html"><img class="card-img" src="assets/movies/liway.jpg"></a>
-          <p class="card-genre martial">Martial Law</p>
-          <h3 class="card-title"><a href="film-in-focus-liway.html">Liway</a></h3>
+          <a href="film-in-focus-batas.html"><img class="small-book" src="assets/icons/book.png"/></a>
+          <a href="film-in-focus-batas.html"><img class="card-img" src="assets/movies/batas.jpg"></a>
+          <p class="card-genre martial">martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-batas.html">Batas Militar</a></h3>
 
           <div class="bottom-card">
-            <p class="card-director">Kip Oebanda</p>
-            <p class="card-info">2018 | 2 hr 35 min</p>
+            <p class="card-director">Mike Alcazaren</p>
+            <p class="card-info">1997 | 1 hr 30 min</p>
             <p class="card-rating">mtrcb</p>
-            <p class="card-tags"><span>Family Dynamics</span><span>Human Rights</span><span>Women</span></p>
+            <p class="card-tags"><span>human rights</span><span>documentary</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://www.youtube.com/watch?v=CFxWF-KgCVM"><img class="card-stream" style="width: 40px;" src="assets/icons/youtube.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="ml-batch">
+        <div class="card">
+          <a href="film-in-focus-batch81.html"><img class="card-img" src="assets/movies/batch81.jpg"></a>
+          <p class="card-genre martial">martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-batch81.html">Batch 81</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Mike De Leon</p>
+            <p class="card-info">1982 | 1 hr 48 min</p>
+            <p class="card-rating">r-18</p>
+            <p class="card-tags"><span>human rights</span><span>politics</span></p>
           </div>
           <div class="bottom-right-card">
             <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
@@ -100,7 +119,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="ml-dekada">
         <div class="card">
           <a href="film-in-focus-dekada70.html"><img class="small-book" src="assets/icons/book.png"/></a>
           <a href="film-in-focus-dekada70.html"><img class="card-img" src="assets/movies/dekada70.jpg"></a>
@@ -119,17 +138,17 @@
         </div>
       </article>
 
-      <article>
+      <article id="ml-liway">
         <div class="card">
-          <a href="film-in-focus-batch81.html"><img class="card-img" src="assets/movies/batch81.jpg"></a>
-          <p class="card-genre martial">martial law</p>
-          <h3 class="card-title"><a href="film-in-focus-batch81.html">Batch 81</a></h3>
+          <a href="film-in-focus-liway.html"><img class="card-img" src="assets/movies/liway.jpg"></a>
+          <p class="card-genre martial">Martial Law</p>
+          <h3 class="card-title"><a href="film-in-focus-liway.html">Liway</a></h3>
 
           <div class="bottom-card">
-            <p class="card-director">Mike De Leon</p>
-            <p class="card-info">1982 | 1 hr 48 min</p>
-            <p class="card-rating">r-18</p>
-            <p class="card-tags"><span>human rights</span><span>politics</span></p>
+            <p class="card-director">Kip Oebanda</p>
+            <p class="card-info">2018 | 2 hr 35 min</p>
+            <p class="card-rating">mtrcb</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>Human Rights</span><span>Women</span></p>
           </div>
           <div class="bottom-right-card">
             <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
@@ -137,7 +156,8 @@
         </div>
       </article>
 
-      <article>
+
+      <article id="ml-ml">
         <div class="card">
           <a href="film-in-focus-ml.html"><img class="card-img" src="assets/movies/ml.jpg"></a>
           <p class="card-genre martial">Martial Law</p>
@@ -155,7 +175,26 @@
         </div>
       </article>
 
-      <article>
+      <!-- Date Produced -->
+      <article id="ml-batch1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-batch81.html"><img class="card-img" src="assets/movies/batch81.jpg"></a>
+          <p class="card-genre martial">martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-batch81.html">Batch 81</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Mike De Leon</p>
+            <p class="card-info">1982 | 1 hr 48 min</p>
+            <p class="card-rating">r-18</p>
+            <p class="card-tags"><span>human rights</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="ml-batas1" style="display: none">
         <div class="card">
           <a href="film-in-focus-batas.html"><img class="small-book" src="assets/icons/book.png"/></a>
           <a href="film-in-focus-batas.html"><img class="card-img" src="assets/movies/batas.jpg"></a>
@@ -170,6 +209,61 @@
           </div>
           <div class="bottom-right-card">
             <a href="https://www.youtube.com/watch?v=CFxWF-KgCVM"><img class="card-stream" style="width: 40px;" src="assets/icons/youtube.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="ml-dekada1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-dekada70.html"><img class="small-book" src="assets/icons/book.png"/></a>
+          <a href="film-in-focus-dekada70.html"><img class="card-img" src="assets/movies/dekada70.jpg"></a>
+          <p class="card-genre martial">martial law</p>
+          <h3 class="card-title"><a href="film-in-focus-dekada70.html">Dekada '70</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Chito Roño</p>
+            <p class="card-info">2002 | 2 hr 8 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>Human Rights</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://piay.iflix.com/movies/dekada-70-28589"><img class="card-stream" style="width: 40px;" src="assets/icons/iflix.png"/></a>
+          </div>
+        </div>
+      </article>
+      <article id="ml-liway1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-liway.html"><img class="card-img" src="assets/movies/liway.jpg"></a>
+          <p class="card-genre martial">Martial Law</p>
+          <h3 class="card-title"><a href="film-in-focus-liway.html">Liway</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Kip Oebanda</p>
+            <p class="card-info">2018 | 2 hr 35 min</p>
+            <p class="card-rating">mtrcb</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>Human Rights</span><span>Women</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+
+      <article id="ml-ml1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-ml.html"><img class="card-img" src="assets/movies/ml.jpg"></a>
+          <p class="card-genre martial">Martial Law</p>
+          <h3 class="card-title"><a href="film-in-focus-ml.html">ML</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Benedict Mique</p>
+            <p class="card-info">2018 | 1 hr 30 min</p>
+
+            <p class="card-tags"><span>human rights</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
           </div>
         </div>
       </article>
@@ -189,6 +283,49 @@
     </div>
   </footer>
 
-  <script src="script.js" charset="utf-8"></script>
+  <script>
+  const MLValue = document.querySelector('#mlSelect').value
+  const Batas = document.querySelector("#ml-batas");
+  const Batch = document.querySelector("#ml-batch");
+  const Dekada = document.querySelector("#ml-dekada");
+  const Liway = document.querySelector("#ml-liway");
+  const ML = document.querySelector("#ml-ml");
+
+  const Batas1 = document.querySelector("#ml-batas1");
+  const Batch1 = document.querySelector("#ml-batch1");
+  const Dekada1 = document.querySelector("#ml-dekada1");
+  const Liway1 = document.querySelector("#ml-liway");
+  const ML1 = document.querySelector("#ml-ml1");
+
+  function mlSort() {
+    const MLValue = document.querySelector('#mlSelect').value
+    if (MLValue === "1") {
+      Batas.style.display = "block"
+      Batch.style.display = "block"
+      Dekada.style.display = "block"
+      Liway.style.display = "block"
+      ML.style.display = "block"
+
+      Batas1.style.display = "none"
+      Batch1.style.display = "none"
+      Dekada1.style.display = "none"
+      Liway1.style.display = "none"
+      ML1.style.display = "none"
+
+    } else {
+      Batas.style.display = "none"
+      Batch.style.display = "none"
+      Dekada.style.display = "none"
+      Liway.style.display = "none"
+      ML.style.display = "none"
+
+      Batas1.style.display = "block"
+      Batch1.style.display = "block"
+      Dekada1.style.display = "block"
+      Liway1.style.display = "block"
+      ML1.style.display = "block"
+    }
+  }
+  </script>
 </body>
 </html>
