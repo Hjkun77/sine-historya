@@ -13,6 +13,10 @@ nav {
     background-color: #000;
 }
 
+.logo {
+	padding-top: 6px;
+}
+
 .navbar {
 	padding-left: 24px;
 	display: -webkit-box;
@@ -113,6 +117,20 @@ nav ul ul h3 {
 	font-size: 13px;
 }
 
+.column-left lh:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.column-left h3:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.column-left li a:hover {
+	text-decoration: underline;
+}
+
 .column-left li a:before {
 	content: "● ";
 }
@@ -191,6 +209,14 @@ nav ul ul h3 {
 	font-size: 15px;
 }
 
+.about-dropdown li a:hover {
+	text-decoration: underline;
+}
+
+.about-dropdown .contact {
+	padding-top: 12px;
+}
+
 .about-dropdown .contact a {
 	color: #6C6C6C;
 }
@@ -218,7 +244,7 @@ nav ul li .active {
 
 /* COVER PHOTO */
 .cover-buttons {
-	margin-top: -95px;
+	margin-top: -10px;
 	text-align: center;
 }
 
@@ -276,7 +302,7 @@ nav ul li .active {
 }
 
 .learn-cover-text {
-	padding: 60px 230px 60px 230px;
+	padding: 60px 230px 100px 230px;
 	background-color: rgba(255,255,255,0.3);
 }
 
@@ -286,7 +312,7 @@ nav ul li .active {
 	font-size: 30px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .learn-cover-text p {
@@ -312,12 +338,12 @@ nav ul li .active {
 	font-family: 'Libre Franklin', serif;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 23px;
 	letter-spacing: 0.1em;
 }
 
 .home-landing img {
-	width: 420px;
+	width: 500px;
 }
 
 .home-landing p {
@@ -626,7 +652,7 @@ nav ul li .active {
 	font-family: 'Libre Baskerville', sans-serif;
 	font-weight: bold;
 	font-size: 35px;
-	color: #000000;
+	color: #E9F4ED;
 	margin-bottom: 30px;
 }
 
@@ -639,14 +665,13 @@ nav ul li .active {
 	min-height: 400px !important;
 	background: #C4C4C4;
 	padding: 30px;
+	position: relative;
 }
-
-
 
 .about-card h2 {
 	font-family: 'Libre Franklin', sans-serif;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 24px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #000000;
@@ -664,17 +689,15 @@ nav ul li .active {
 
 .about-card h6 {
 	text-align: center;
-	margin-left: auto;
 	font-family: 'Libre Franklin',sans-serif;
 	font-weight: bold;
 	font-size: 15px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	padding: 15px 15px 15px 15px;
+	padding: 15px 25px 15px 25px;
 	border: 0.5px solid #000000;
 	color: #000000;
 	background-color: #E9F4ED;
-	width: 65%;
 	border-radius: 35px;
 }
 
@@ -683,8 +706,19 @@ nav ul li .active {
 	color: #E9F4ED;
 }
 
+.alive {
+	background: url("assets/about/alive.png") no-repeat center center;
+	background-size: cover;
+}
+
 .remember {
 	background: url("assets/about/remember.png") no-repeat center center;
+	background-size: cover;
+}
+
+.culture {
+	background: url("assets/about/culture.png") no-repeat center center;
+	background-size: cover;
 }
 
 /*About - Contact Us */
@@ -1138,8 +1172,8 @@ nav ul li .active {
 }
 
 .feature-left hr {
-	border: 4px solid #24346D;
-	margin: 5px 0 25px 0;
+	border: 4px solid #A50014;;
+	margin: 0px 0 25px 0;
 	width: 230px;
 }
 
@@ -1384,8 +1418,8 @@ nav ul li .active {
 	text-transform: uppercase;
 	border: 1px solid #000;
 	background-color: #D6EADE;
-	border-radius: 17px;
-	padding: 7px 30px 7px 30px;
+	border-radius: 55px;
+	padding: 10px 30px 10px 30px;
 	text-decoration: none;
 }
 
