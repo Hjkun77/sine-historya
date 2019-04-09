@@ -6,7 +6,6 @@ html {
 nav {
   	text-align: right;
     width: 100%;
-    padding: 0 100px 0 0;
     margin: 0;
     position: relative;
     color: #D6EADE;
@@ -110,6 +109,48 @@ nav ul ul h3 {
 	letter-spacing: 0.1em;
 	padding-bottom: 20px;
 	padding-top: 15px;
+}
+
+.nav-search {
+	padding: 0 25px;
+	cursor: pointer;
+}
+
+.search-dropdown {
+	padding: 20px 20px 20px 20px;
+	z-index: 999999;
+	right: 0px;
+	background: #D6EADE;
+}
+
+.search-dropdown input {
+	width: 537px;
+	border: 1px solid #E9F4ED;
+	background: #E9F4ED;
+	border-radius: 5px;
+	font-family: 'Libre Franklin';
+	font-size: 15px;
+	line-height: normal;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	color: #6C6C6C
+}
+
+.search-button {
+	padding: 8px 30px;
+	margin-left: 8px;
+	background: #E9F4ED;
+	border: 0.3px solid #000000;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 25px;
+	font-family: 'Libre Franklin';
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
 }
 
 .column-left li a {
