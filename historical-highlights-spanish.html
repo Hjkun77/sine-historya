@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="animate.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
 
@@ -65,15 +65,15 @@
   </ul>
 
   <section id="highlight-spanish-cover">
-    <h3 class="highlights-text">spanish colonization</h3>
-    <p class="highlights-date">1521 - 1898</p>
+    <h3 class="highlights-text animated fadeIn">spanish colonization</h3>
+    <p class="highlights-date animated fadeIn">1521 - 1898</p>
     <img class="highlights-cover" src="assets/highlights/spanish.png" />
   </section>
 
   <div id="historical-sort-spanish">
     <div class="historical-sort">
       <h3>browse by:</h3>
-      <select id="sortSelect" onchange="sortFunction()">
+      <select id="spanishSelect" onchange="spanishSort()">
         <option value="1">alphabetical order</option>
         <option value="2">date produced</option>
       </select>
@@ -82,43 +82,7 @@
 
   <section id="highlight-spanish">
     <div class="grid all-wrapper-x2">
-      <article>
-        <div class="card">
-          <a href="film-in-focus-jose.html"><img class="card-img" src="assets/movies/rizal.jpg"></a>
-          <p class="card-genre spanish">spanish colonization</p>
-          <h3 class="card-title"><a href="film-in-focus-jose.html">Jose Rizal</a></h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Marilou Diaz Abaya</p>
-            <p class="card-info">1998 | 2 hr 58 min</p>
-            <p class="card-rating">pg-13</p>
-            <p class="card-tags"><span>nation building</span><span>biopic</span><span>colonialism</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <a href="https://piay.iflix.com/movies/jose-rizal-22147"><img class="card-stream" style="width: 40px;" src="assets/icons/iflix.png"/></a>
-          </div>
-        </div>
-      </article>
-
-      <article>
-        <div class="card">
-          <a href="film-in-focus-bonifacio.html"><img class="card-img" src="assets/movies/bonifacio.jpg"></a>
-          <p class="card-genre spanish">spanish colonization</p>
-          <h3 class="card-title"><a href="film-in-focus-bonifacio.html">Bonifacio: Ang Unang Pangulo</a></h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Enzo Williams</p>
-            <p class="card-info">2014 | 1 hr 40 min</p>
-            <p class="card-rating">pg-13</p>
-            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <a href="https://www.iwant.ph/movies/Bonifacio:-Ang-Unang-Pangulo?id=5bf60dc2-9733-415e-a4dd-71759584929c"><img class="card-stream" style="width: 40px;" src="assets/icons/iwant.png"/></a>
-          </div>
-        </div>
-      </article>
-
-      <article>
+      <article id="spanish-baler">
         <div class="card">
           <a href="film-in-focus-baler.html"><img class="card-img" src="assets/movies/baler.jpg"></a>
           <p class="card-genre spanish">spanish colonization</p>
@@ -136,7 +100,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="spanish-world">
         <div class="card">
           <a href="film-in-focus-bayaning.html"><img class="card-img" src="assets/movies/bayaning.jpg"></a>
           <p class="card-genre spanish">spanish colonization</p>
@@ -154,6 +118,118 @@
         </div>
       </article>
 
+      <article id="spanish-bonifacio">
+        <div class="card">
+          <a href="film-in-focus-bonifacio.html"><img class="card-img" src="assets/movies/bonifacio.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-bonifacio.html">Bonifacio: Ang Unang Pangulo</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Enzo Williams</p>
+            <p class="card-info">2014 | 1 hr 40 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://www.iwant.ph/movies/Bonifacio:-Ang-Unang-Pangulo?id=5bf60dc2-9733-415e-a4dd-71759584929c"><img class="card-stream" style="width: 40px;" src="assets/icons/iwant.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="spanish-jose">
+        <div class="card">
+          <a href="film-in-focus-jose.html"><img class="card-img" src="assets/movies/rizal.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-jose.html">Jose Rizal</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Marilou Diaz Abaya</p>
+            <p class="card-info">1998 | 2 hr 58 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://piay.iflix.com/movies/jose-rizal-22147"><img class="card-stream" style="width: 40px;" src="assets/icons/iflix.png"/></a>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Date Produced -->
+      <article id="spanish-jose1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-jose.html"><img class="card-img" src="assets/movies/rizal.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-jose.html">Jose Rizal</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Marilou Diaz Abaya</p>
+            <p class="card-info">1998 | 2 hr 58 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://piay.iflix.com/movies/jose-rizal-22147"><img class="card-stream" style="width: 40px;" src="assets/icons/iflix.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="spanish-world1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-bayaning.html"><img class="card-img" src="assets/movies/bayaning.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-bayaning.html">Bayaning Third World</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Mike de Leon</p>
+            <p class="card-info">2002 | 1 hr 33 min</p>
+
+            <p class="card-tags"><span>nation building</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="spanish-baler1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-baler.html"><img class="card-img" src="assets/movies/baler.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-baler.html">Baler</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Mark Meily</p>
+            <p class="card-info">2008 | 1 hr 56 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://m.hooq.tv/movies/ea05f2f4-6150-4bc8-a962-0d04b105d47e"><img class="card-stream" style="width: 40px;" src="assets/icons/hooq.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="spanish-bonifacio1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-bonifacio.html"><img class="card-img" src="assets/movies/bonifacio.jpg"></a>
+          <p class="card-genre spanish">spanish colonization</p>
+          <h3 class="card-title"><a href="film-in-focus-bonifacio.html">Bonifacio: Ang Unang Pangulo</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Enzo Williams</p>
+            <p class="card-info">2014 | 1 hr 40 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://www.iwant.ph/movies/Bonifacio:-Ang-Unang-Pangulo?id=5bf60dc2-9733-415e-a4dd-71759584929c"><img class="card-stream" style="width: 40px;" src="assets/icons/iwant.png"/></a>
+          </div>
+        </div>
+      </article>
+
+
+
     </div>
   </section>
 
@@ -169,6 +245,42 @@
     </div>
   </footer>
 
-  <script src="script.js" charset="utf-8"></script>
+  <script>
+  const SpanishValue = document.querySelector('#spanishSelect').value
+  const Jose = document.querySelector("#spanish-jose");
+  const World = document.querySelector("#spanish-world");
+  const Baler = document.querySelector("#spanish-baler");
+  const Bonifacio = document.querySelector("#spanish-bonifacio");
+
+  const Jose1 = document.querySelector("#spanish-jose1");
+  const World1 = document.querySelector("#spanish-world1");
+  const Baler1 = document.querySelector("#spanish-baler1");
+  const Bonifacio1 = document.querySelector("#spanish-bonifacio1");
+
+  function spanishSort() {
+    const SpanishValue = document.querySelector('#spanishSelect').value
+    if (SpanishValue === "1") {
+      Jose.style.display = "block"
+      World.style.display = "block"
+      Baler.style.display = "block"
+      Bonifacio.style.display = "block"
+
+      Jose1.style.display = "none"
+      World1.style.display = "none"
+      Baler1.style.display = "none"
+      Bonifacio1.style.display = "none"
+    } else {
+      Jose1.style.display = "block"
+      World1.style.display = "block"
+      Baler1.style.display = "block"
+      Bonifacio1.style.display = "block"
+
+      Jose.style.display = "none"
+      World.style.display = "none"
+      Baler.style.display = "none"
+      Bonifacio.style.display = "none"
+    }
+  }
+  </script>
 </body>
 </html>

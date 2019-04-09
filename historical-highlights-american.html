@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="animate.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
 
@@ -65,15 +65,15 @@
   </ul>
 
   <section id="highlight-american-cover">
-    <h3 class="highlights-text">american colonial period</h3>
-    <p class="highlights-date">1898 - 1946</p>
+    <h3 class="highlights-text animated fadeIn">american colonial period</h3>
+    <p class="highlights-date animated fadeIn">1898 - 1946</p>
     <img class="highlights-cover" src="assets/highlights/american.png" />
   </section>
 
   <div id="historical-sort-american">
     <div class="historical-sort">
       <h3>browse by:</h3>
-      <select id="sortSelect" onchange="sortFunction()">
+      <select id="americanSelect" onchange="americanSort()">
         <option value="1">alphabetical order</option>
         <option value="2">date produced</option>
       </select>
@@ -82,7 +82,7 @@
 
   <section id="highlight-american">
     <div class="grid all-wrapper-x2">
-      <article>
+      <article id="american-goyo">
         <div class="card">
           <a href="film-in-focus-goyo.html"><img class="card-img" src="assets/movies/goyo.jpg"></a>
           <p class="card-genre american">American Colonial Period</p>
@@ -100,7 +100,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="american-luna">
         <div class="card">
           <img class="small-book" src="assets/icons/book.png"/>
           <a href="film-in-focus-luna.html"><img class="card-img" src="assets/movies/luna.jpg"></a>
@@ -119,25 +119,9 @@
         </div>
       </article>
 
-      <article>
-        <div class="card">
-          <a href="film-in-focus-sakay.html"><img class="card-img" src="assets/movies/sakay.jpg"></a>
-          <p class="card-genre american">american colonial period</p>
-          <h3 class="card-title"><a href="film-in-focus-sakay.html">Sakay</a></h3>
 
-          <div class="bottom-card">
-            <p class="card-director">Raymond Red</p>
-            <p class="card-info">1993 | 1 hr 52 min</p>
-            <p class="card-rating">pg-13</p>
-            <p class="card-tags"><span>Nation building</span><span>biopic</span><span>colonialism</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <a href="https://www.iwant.ph/movies/Sakay?id=7d8e3e02-b13d-4abe-8e9d-844d1897ebb9"><img class="card-stream" style="width: 40px;" src="assets/icons/iwant.png"/></a>
-          </div>
-        </div>
-      </article>
 
-      <article>
+      <article id="american-minsan">
         <div class="card">
           <a href="film-in-focus-gamugamo.html"><img class="card-img" src="assets/movies/gamugamo.jpg"></a>
           <p class="card-genre american">american colonial period</p>
@@ -155,7 +139,44 @@
         </div>
       </article>
 
-      <article>
+      <article id="american-sakay">
+        <div class="card">
+          <a href="film-in-focus-sakay.html"><img class="card-img" src="assets/movies/sakay.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-sakay.html">Sakay</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Raymond Red</p>
+            <p class="card-info">1993 | 1 hr 52 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>Nation building</span><span>biopic</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://www.iwant.ph/movies/Sakay?id=7d8e3e02-b13d-4abe-8e9d-844d1897ebb9"><img class="card-stream" style="width: 40px;" src="assets/icons/iwant.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Date Produced -->
+      <article id="american-minsan1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-gamugamo.html"><img class="card-img" src="assets/movies/gamugamo.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-gamugamo.html">Minsa'y Isang Gamu-Gamo</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Lupita Concio</p>
+            <p class="card-info">1976 | 1 hr 39 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>Women</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-sakay1" style="display: none">
         <div class="card">
           <a href="film-in-focus-batas.html"><img class="small-book" src="assets/icons/book.png"/></a>
           <a href="film-in-focus-batas.html"><img class="card-img" src="assets/movies/batas.jpg"></a>
@@ -170,6 +191,43 @@
           </div>
           <div class="bottom-right-card">
             <a href="https://www.youtube.com/watch?v=CFxWF-KgCVM"><img class="card-stream" style="width: 40px;" src="assets/icons/youtube.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-luna1" style="display: none">
+        <div class="card">
+          <img class="small-book" src="assets/icons/book.png"/>
+          <a href="film-in-focus-luna.html"><img class="card-img" src="assets/movies/luna.jpg"></a>
+          <p class="card-genre american">American Colonial Period</p>
+          <h3 class="card-title"><a href="film-in-focus-luna.html">Heneral Luna</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Jerrold Tarog</p>
+            <p class="card-info">2015 | 1 hr 58 min</p>
+            <p class="card-rating">R-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 40px;" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-goyo1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-goyo.html"><img class="card-img" src="assets/movies/goyo.jpg"></a>
+          <p class="card-genre american">American Colonial Period</p>
+          <h3 class="card-title"><a href="film-in-focus-goyo.html">Goyo: Ang Batang Heneral</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Jerrold Tarog</p>
+            <p class="card-info">2018 | 2 hr 35 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 40px;" src="assets/icons/netflix.png"/>
           </div>
         </div>
       </article>
@@ -189,6 +247,43 @@
     </div>
   </footer>
 
-  <script src="script.js" charset="utf-8"></script>
+  <script>
+  const AmericanValue = document.querySelector("#americanSelect").value
+  const Goyo = document.querySelector("#american-goyo")
+  const Luna = document.querySelector("#american-luna")
+  const Minsan = document.querySelector("#american-minsan")
+  const Sakay = document.querySelector("#american-sakay")
+
+  const Goyo1 = document.querySelector("#american-goyo1")
+  const Luna1 = document.querySelector("#american-luna1")
+  const Minsan1 = document.querySelector("#american-minsan1")
+  const Sakay1 = document.querySelector("#american-sakay1")
+
+
+  function americanSort() {
+    const AmericanValue = document.querySelector("#americanSelect").value
+    if (AmericanValue === "1") {
+      Goyo.style.display = "block"
+      Luna.style.display = "block"
+      Minsan.style.display = "block"
+      Sakay.style.display = "block"
+
+      Goyo1.style.display = "none"
+      Luna1.style.display = "none"
+      Minsan1.style.display = "none"
+      Sakay1.style.display = "none"
+    } else {
+      Goyo1.style.display = "block"
+      Luna1.style.display = "block"
+      Minsan1.style.display = "block"
+      Sakay1.style.display = "block"
+
+      Goyo.style.display = "none"
+      Luna.style.display = "none"
+      Minsan.style.display = "none"
+      Sakay.style.display = "none"
+    }
+  }
+  </script>
 </body>
 </html>

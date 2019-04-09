@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="animate.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
 
@@ -65,15 +65,15 @@
   </ul>
 
   <section id="highlight-japanese-cover">
-    <h3 class="highlights-text">japanese occupation</h3>
-    <p class="highlights-date">1942 - 1945</p>
+    <h3 class="highlights-text animated fadeIn">japanese occupation</h3>
+    <p class="highlights-date animated fadeIn">1942 - 1945</p>
     <img class="highlights-cover" src="assets/highlights/japanese.png" />
   </section>
 
   <div id="historical-sort-japanese">
     <div class="historical-sort">
       <h3>browse by:</h3>
-      <select id="sortSelect" onchange="sortFunction()">
+      <select id="japaneseSelect" onchange="japaneseSort()">
         <option value="1">alphabetical order</option>
         <option value="2">date produced</option>
       </select>
@@ -82,25 +82,7 @@
 
   <section id="highlight-japanese">
     <div class="grid all-wrapper-x2">
-      <article>
-        <div class="card">
-          <a href="film-in-focus-tatlong.html"><img class="card-img" src="assets/movies/tatlong.jpg"></a>
-          <p class="card-genre japanese">japanese occupation</p>
-          <h3 class="card-title"><a href="film-in-focus-tatlong.html">Tatlong Taong Walang Diyos</a></h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Mario O'Hara</p>
-            <p class="card-info">1976 | 2 hr 5 min</p>
-            <p class="card-rating">pg-13</p>
-            <p class="card-tags"><span>family dynamics</span><span>human rights</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <a href="https://itunes.apple.com/us/movie/tatlong-taong-walang-diyos-three-godless-years-aka/id1436130772) iwanttv (http://beta.iwantv.com.ph/tv/show/Tatlong-Taong-Walang-Diyos?s=7024"><img class="card-stream" style="width: 40px;" src="assets/icons/itunes.png"/></a>
-          </div>
-        </div>
-      </article>
-
-      <article>
+      <article id="japanese-aishite">
         <div class="card">
           <a href="film-in-focus-aishite.html"><img class="card-img" src="assets/movies/aishite.jpg"></a>
           <p class="card-genre japanese">japanese occupation</p>
@@ -118,7 +100,25 @@
         </div>
       </article>
 
-      <article>
+      <article id="japanese-larawan">
+        <div class="card">
+          <a href="film-in-focus-lawaran.html"><img class="card-img" src="assets/movies/larawan.jpg"></a>
+          <p class="card-genre japanese">japanese occupation</p>
+          <h3 class="card-title"><a href="film-in-focus-lawaran.html">Ang Larawan</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Loy Arcenas</p>
+            <p class="card-info">2017 | 2 hr 4 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>family dynamics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="japanese-oro">
         <div class="card">
           <a href="film-in-focus-oro.html"><img class="card-img" src="assets/movies/oro.jpg"></a>
           <p class="card-genre japanese">japanese occupation</p>
@@ -136,7 +136,81 @@
         </div>
       </article>
 
-      <article>
+      <article id="japanese-tatlo">
+        <div class="card">
+          <a href="film-in-focus-tatlong.html"><img class="card-img" src="assets/movies/tatlong.jpg"></a>
+          <p class="card-genre japanese">japanese occupation</p>
+          <h3 class="card-title"><a href="film-in-focus-tatlong.html">Tatlong Taong Walang Diyos</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Mario O'Hara</p>
+            <p class="card-info">1976 | 2 hr 5 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>family dynamics</span><span>human rights</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://itunes.apple.com/us/movie/tatlong-taong-walang-diyos-three-godless-years-aka/id1436130772) iwanttv (http://beta.iwantv.com.ph/tv/show/Tatlong-Taong-Walang-Diyos?s=7024"><img class="card-stream" style="width: 40px;" src="assets/icons/itunes.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Date Produced -->
+      <article id="japanese-tatlo1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-tatlong.html"><img class="card-img" src="assets/movies/tatlong.jpg"></a>
+          <p class="card-genre japanese">japanese occupation</p>
+          <h3 class="card-title"><a href="film-in-focus-tatlong.html">Tatlong Taong Walang Diyos</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Mario O'Hara</p>
+            <p class="card-info">1976 | 2 hr 5 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>family dynamics</span><span>human rights</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://m.hooq.tv/movies/5384edc5-f11e-4bd6-8000-466f16217399"><img class="card-stream" style="width: 40px;" src="assets/icons/hooq.png"/></a>
+            <a href="https://itunes.apple.com/us/movie/tatlong-taong-walang-diyos-three-godless-years-aka/id1436130772) iwanttv (http://beta.iwantv.com.ph/tv/show/Tatlong-Taong-Walang-Diyos?s=7024"><img class="card-stream" style="width: 40px;" src="assets/icons/itunes.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="japanese-oro1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-oro.html"><img class="card-img" src="assets/movies/oro.jpg"></a>
+          <p class="card-genre japanese">japanese occupation</p>
+          <h3 class="card-title"><a href="film-in-focus-oro.html">Oro Plata Mata</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Peque Gallaga</p>
+            <p class="card-info">1982 | 3 hr 14 min</p>
+            <p class="card-rating">r-13</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>human rights</span><span>women</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://itunes.apple.com/us/movie/gold-silver-death-oro-plata-mata/id1108076496"><img class="card-stream" style="width: 40px;" src="assets/icons/itunes.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="japanese-aishite1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-aishite.html"><img class="card-img" src="assets/movies/aishite.jpg"></a>
+          <p class="card-genre japanese">japanese occupation</p>
+          <h3 class="card-title"><a href="film-in-focus-aishite.html">Aishite Imasu 1941: Mahal Kita</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Joey Lamangan</p>
+            <p class="card-info">2014 | 1 hr 47 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>women</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a href="https://m.hooq.tv/movies/5384edc5-f11e-4bd6-8000-466f16217399"><img class="card-stream" style="width: 40px;" src="assets/icons/hooq.png"/></a>
+          </div>
+        </div>
+      </article>
+
+      <article id="japanese-larawan1" style="display: none">
         <div class="card">
           <a href="film-in-focus-lawaran.html"><img class="card-img" src="assets/movies/larawan.jpg"></a>
           <p class="card-genre japanese">japanese occupation</p>
@@ -153,6 +227,7 @@
           </div>
         </div>
       </article>
+
     </div>
   </section>
 
@@ -168,6 +243,42 @@
     </div>
   </footer>
 
-  <script src="script.js" charset="utf-8"></script>
+  <script>
+  const JapaneseValue = document.querySelector('#japaneseSelect').value
+  const Aishite = document.querySelector("#japanese-aishite");
+  const Larawan = document.querySelector("#japanese-larawan");
+  const Oro = document.querySelector("#japanese-oro");
+  const Tatlo = document.querySelector("#japanese-tatlo");
+
+  const Aishite1 = document.querySelector("#japanese-aishite1");
+  const Larawan1 = document.querySelector("#japanese-larawan1");
+  const Oro1 = document.querySelector("#japanese-oro1");
+  const Tatlo1 = document.querySelector("#japanese-tatlo1");
+
+  function japaneseSort() {
+    const JapaneseValue = document.querySelector('#japaneseSelect').value
+    if (JapaneseValue === "1") {
+      Aishite.style.display = "block"
+      Larawan.style.display = "block"
+      Oro.style.display = "block"
+      Tatlo.style.display = "block"
+
+      Aishite1.style.display = "none"
+      Larawan1.style.display = "none"
+      Oro1.style.display = "none"
+      Tatlo1.style.display = "none"
+    } else {
+      Aishite1.style.display = "block"
+      Larawan1.style.display = "block"
+      Oro1.style.display = "block"
+      Tatlo1.style.display = "block"
+
+      Aishite.style.display = "none"
+      Larawan.style.display = "none"
+      Oro.style.display = "none"
+      Tatlo.style.display = "none"
+    }
+  }
+  </script>
 </body>
 </html>
