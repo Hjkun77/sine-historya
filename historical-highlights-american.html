@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale = 1.0, initial-scale = 1.0, maximum-scale = 5.0, user-scalable=yes, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Inya de Vera's thesis project, an informative website that promotes Filipino movies, in partial fulfillment of AB Information Design">
+  <meta property="og:title" content="Sine Historya">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Inya de Vera's thesis project, an informative website that promotes Filipino movies, in partial fulfillment of AB Information Design">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
+
+  <title>Sine Historya</title>
+</head>
+<body>
+
+  <nav>
+    <div class="navbar">
+      <a class="logo" href="/"><img src="./assets/logos/sineHistorya-logo.svg" alt="logo" /></a>
+      <ul>
+        <li class="nav-items">
+          <a class="nav-links" href="index.html"><p>Watch</p>
+            <div class="arrow"></div>
+          </a>
+          <ul class="watch-dropdown">
+            <div class="column-left">
+              <a href="historical-highlights.html"><lh>by historical highlights</lh></a>
+              <li class="first spanish"><a href="historical-highlights-spanish.html">spanish colonization</a></li>
+              <li class="american"><a href="historical-highlights-american.html">American Colonial period</a></li>
+              <li class="japanese"><a href="historical-highlights-japanese.html">Japanese occupation</a></li>
+              <li class="martial"><a href="historical-highlights-martialLaw.html">martial law</a></li>
+              <li class="post"><a href="historical-highlights-postMartialLaw.html">post martial law</a></li>
+              <a href="all-cards.html"><h3>by topic</h3></a>
+            </div>
+          </ul>
+        </li>
+
+        <li class="nav-items"><a class="nav-links" href="learn.html">Learn</a></li>
+
+        <li class="nav-items">
+          <a class="nav-links" href="about.html">About
+            <div class="arrow"></div>
+          </a>
+          <ul class="about-dropdown">
+            <li><a style="font-weight: normal;" href="about.html#mission">mission</a></li>
+            <li><a style="font-weight: normal;" href="alternative-cinema.html">independent cinema<img style="width: 35px; padding-left: 5px;" src="assets/icons/cinema.png"/></li></a>
+            <li class="contact"><a style="font-weight: normal;" href="about.html#contact-us">contact</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="highlights-nav flex">
+    <a href="historical-highlights-spanish.html"><li class="spanish-nav">Spanish Colonization</li></a>
+    <a href="historical-highlights-american.html"><li class="american-nav american-active">American Colonial Period</li></a>
+    <a href="historical-highlights-japanese.html"><li class="japanese-nav">Japanese Occupation</li></a>
+    <a href="historical-highlights-martialLaw.html"><li class="ML-nav">Martial Law</li></a>
+    <a href="historical-highlights-postMartialLaw.html"><li class="postML-nav">Post Martial Law</li></a>
+  </ul>
+
+  <section id="highlight-american-cover">
+    <h3 class="highlights-text animated fadeIn">american colonial period</h3>
+    <p class="highlights-date animated fadeIn">1898 - 1946</p>
+    <img class="highlights-cover" src="assets/highlights/american.png" />
+  </section>
+
+  <div id="historical-sort-american">
+    <div class="historical-sort">
+      <h3>browse by:</h3>
+      <select id="americanSelect" onchange="americanSort()">
+        <option value="1">alphabetical order</option>
+        <option value="2">date produced</option>
+      </select>
+    </div>
+  </div>
+
+  <section id="highlight-american">
+    <div class="grid all-wrapper-x2">
+      <article id="american-larawan">
+        <div class="card">
+          <a href="film-in-focus-lawaran.html"><img class="card-img" src="assets/movies/larawan.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-lawaran.html">Ang Larawan</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Loy Arcenas</p>
+            <p class="card-info">2017 | 2 hr 4 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>family dynamics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-balangiga">
+        <div class="card">
+          <a href="film-in-focus-balangiga.html"><img class="card-img" src="assets/movies/balangiga.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-balangiga.html">Balangiga: Howling Wilderness</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Khavn</p>
+            <p class="card-info">2018 | 2 hr</p>
+
+            <p class="card-tags"><span>family dynamics</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-goyo">
+        <div class="card">
+          <a href="film-in-focus-goyo.html"><img class="card-img" src="assets/movies/goyo.jpg"></a>
+          <p class="card-genre american">American Colonial Period</p>
+          <h3 class="card-title"><a href="film-in-focus-goyo.html">Goyo: Ang Batang Heneral</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Jerrold Tarog</p>
+            <p class="card-info">2018 | 2 hr 35 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 40px;" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-luna">
+        <div class="card">
+          <a href="learning-modules.html"><img class="small-book" src="assets/icons/book.png"/></a>
+          <a href="film-in-focus-luna.html"><img class="card-img" src="assets/movies/luna.jpg"></a>
+          <p class="card-genre american">American Colonial Period</p>
+          <h3 class="card-title"><a href="film-in-focus-luna.html">Heneral Luna</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Jerrold Tarog</p>
+            <p class="card-info">2015 | 1 hr 58 min</p>
+            <p class="card-rating">R-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 40px;" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
+
+
+
+      <article id="american-minsan">
+        <div class="card">
+          <a href="film-in-focus-gamugamo.html"><img class="card-img" src="assets/movies/gamugamo.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-gamugamo.html">Minsa'y Isang Gamu-Gamo</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Lupita Concio</p>
+            <p class="card-info">1976 | 1 hr 39 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>Women</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-sakay">
+        <div class="card">
+          <a href="film-in-focus-sakay.html"><img class="card-img" src="assets/movies/sakay.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-sakay.html">Sakay</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Raymond Red</p>
+            <p class="card-info">1993 | 1 hr 52 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>Nation building</span><span>biopic</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.iwant.ph/movies/Sakay?id=7d8e3e02-b13d-4abe-8e9d-844d1897ebb9"><img class="card-stream" style="width: 40px;" src="assets/icons/iwant.png"/></a>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Date Produced -->
+      <article id="american-minsan1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-gamugamo.html"><img class="card-img" src="assets/movies/gamugamo.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-gamugamo.html">Minsa'y Isang Gamu-Gamo</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Lupita Concio</p>
+            <p class="card-info">1976 | 1 hr 39 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>Family Dynamics</span><span>Women</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-sakay1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-sakay.html"><img class="card-img" src="assets/movies/sakay.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-sakay.html">Sakay</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Raymond Red</p>
+            <p class="card-info">1993 | 1 hr 52 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>Nation building</span><span>biopic</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.iwant.ph/movies/Sakay?id=7d8e3e02-b13d-4abe-8e9d-844d1897ebb9"><img class="card-stream" style="width: 40px;" src="assets/icons/iwant.png"/></a>
+          </div>
+        </div>
+      </article>
+
+
+      <article id="american-luna1" style="display: none">
+        <div class="card">
+          <a href="learning-modules.html"><img class="small-book" src="assets/icons/book.png"/></a>
+          <a href="film-in-focus-luna.html"><img class="card-img" src="assets/movies/luna.jpg"></a>
+          <p class="card-genre american">American Colonial Period</p>
+          <h3 class="card-title"><a href="film-in-focus-luna.html">Heneral Luna</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Jerrold Tarog</p>
+            <p class="card-info">2015 | 1 hr 58 min</p>
+            <p class="card-rating">R-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 40px;" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-larawan1">
+        <div class="card">
+          <a href="film-in-focus-lawaran.html"><img class="card-img" src="assets/movies/larawan.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-lawaran.html">Ang Larawan</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Loy Arcenas</p>
+            <p class="card-info">2017 | 2 hr 4 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>family dynamics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+      <article id="american-balangiga1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-balangiga.html"><img class="card-img" src="assets/movies/balangiga.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-balangiga.html">Balangiga: Howling Wilderness</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Khavn</p>
+            <p class="card-info">2018 | 2 hr</p>
+
+            <p class="card-tags"><span>family dynamics</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+
+      <article id="american-goyo1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-goyo.html"><img class="card-img" src="assets/movies/goyo.jpg"></a>
+          <p class="card-genre american">American Colonial Period</p>
+          <h3 class="card-title"><a href="film-in-focus-goyo.html">Goyo: Ang Batang Heneral</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Jerrold Tarog</p>
+            <p class="card-info">2018 | 2 hr 35 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>nation building</span><span>biopic</span><span>politics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 40px;" src="assets/icons/netflix.png"/>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="flex spaceBetween" style="margin-bottom: 16px">
+      <div class="footer-details">
+        <a href="/"><img src="./assets/logos/SH-footer.svg" alt="footer-logo"></a>
+      </div>
+      <div class="footer-details footer-text" style="width: 100%">
+        <h3>We Support Film</h3>
+        <h6>For educational purposes only. © Sine Historya 2019</h6>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  const AmericanValue = document.querySelector("#americanSelect").value
+  const Goyo = document.querySelector("#american-goyo")
+  const Luna = document.querySelector("#american-luna")
+  const Minsan = document.querySelector("#american-minsan")
+  const Sakay = document.querySelector("#american-sakay")
+  const Balangiga = document.querySelector('#american-balangiga')
+  const Larawan = document.querySelector('#american-larawan')
+
+  const Goyo1 = document.querySelector("#american-goyo1")
+  const Luna1 = document.querySelector("#american-luna1")
+  const Minsan1 = document.querySelector("#american-minsan1")
+  const Sakay1 = document.querySelector("#american-sakay1")
+  const Larawan1 = document.querySelector('#american-larawan1')
+  const Balangiga1 = document.querySelector('#american-balangiga1')
+
+  function americanSort() {
+    const AmericanValue = document.querySelector("#americanSelect").value
+    if (AmericanValue === "1") {
+      Goyo.style.display = "block"
+      Luna.style.display = "block"
+      Minsan.style.display = "block"
+      Sakay.style.display = "block"
+      Balangiga.style.display = "block"
+      Larawan.style.display = 'block'
+
+      Goyo1.style.display = "none"
+      Luna1.style.display = "none"
+      Minsan1.style.display = "none"
+      Sakay1.style.display = "none"
+      Balangiga1.style.display = "none"
+      Larawan1.style.display = 'block'
+    } else {
+      Larawan1.style.display = 'block'
+      Goyo1.style.display = "block"
+      Luna1.style.display = "block"
+      Minsan1.style.display = "block"
+      Sakay1.style.display = "block"
+      Balangiga1.style.display = "block"
+
+      Larawan.style.display = 'none'
+      Goyo.style.display = "none"
+      Luna.style.display = "none"
+      Minsan.style.display = "none"
+      Sakay.style.display = "none"
+      Balangiga.style.display = "none"
+    }
+  }
+  </script>
+</body>
+</html>
