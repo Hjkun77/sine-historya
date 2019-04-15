@@ -82,6 +82,24 @@
 
   <section id="highlight-american">
     <div class="grid all-wrapper-x2">
+      <article id="american-balangiga">
+        <div class="card">
+          <a href="film-in-focus-balangiga.html"><img class="card-img" src="assets/movies/balangiga.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-balangiga.html">Balangiga: Howling Wilderness</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Khavn</p>
+            <p class="card-info">2018 | 2 hr</p>
+
+            <p class="card-tags"><span>family dynamics</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
       <article id="american-goyo">
         <div class="card">
           <a href="film-in-focus-goyo.html"><img class="card-img" src="assets/movies/goyo.jpg"></a>
@@ -157,23 +175,6 @@
         </div>
       </article>
 
-      <article id="balangiga-card">
-        <div class="card">
-          <a href="film-in-focus-balangiga.html"><img class="card-img" src="assets/movies/balangiga.jpg"></a>
-          <p class="card-genre american">american colonial period</p>
-          <h3 class="card-title"><a href="film-in-focus-balangiga.html">Balangiga: Howling Wilderness</a></h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Khavn</p>
-            <p class="card-info">2018 | 2 hr</p>
-
-            <p class="card-tags"><span>family dynamics</span><span>colonialism</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
-          </div>
-        </div>
-      </article>
 
       <!-- Date Produced -->
       <article id="american-minsan1" style="display: none">
@@ -194,6 +195,25 @@
         </div>
       </article>
 
+      <article id="american-sakay1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-sakay.html"><img class="card-img" src="assets/movies/sakay.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-sakay.html">Sakay</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Raymond Red</p>
+            <p class="card-info">1993 | 1 hr 52 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>Nation building</span><span>biopic</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.iwant.ph/movies/Sakay?id=7d8e3e02-b13d-4abe-8e9d-844d1897ebb9"><img class="card-stream" style="width: 40px;" src="assets/icons/iwant.png"/></a>
+          </div>
+        </div>
+      </article>
+
+
       <article id="american-luna1" style="display: none">
         <div class="card">
           <a href="learning-modules.html"><img class="small-book" src="assets/icons/book.png"/></a>
@@ -213,6 +233,25 @@
         </div>
       </article>
 
+      <article id="american-balangiga1" style="display: none">
+        <div class="card">
+          <a href="film-in-focus-balangiga.html"><img class="card-img" src="assets/movies/balangiga.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-balangiga.html">Balangiga: Howling Wilderness</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Khavn</p>
+            <p class="card-info">2018 | 2 hr</p>
+
+            <p class="card-tags"><span>family dynamics</span><span>colonialism</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
+
       <article id="american-goyo1" style="display: none">
         <div class="card">
           <a href="film-in-focus-goyo.html"><img class="card-img" src="assets/movies/goyo.jpg"></a>
@@ -227,24 +266,6 @@
           </div>
           <div class="bottom-right-card">
             <img class="card-stream" style="width: 40px;" src="assets/icons/netflix.png"/>
-          </div>
-        </div>
-      </article>
-
-      <article id="balangiga-card1">
-        <div class="card">
-          <a href="film-in-focus-balangiga.html"><img class="card-img" src="assets/movies/balangiga.jpg"></a>
-          <p class="card-genre american">american colonial period</p>
-          <h3 class="card-title"><a href="film-in-focus-balangiga.html">Balangiga: Howling Wilderness</a></h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Khavn</p>
-            <p class="card-info">2018 | 2 hr</p>
-
-            <p class="card-tags"><span>family dynamics</span><span>colonialism</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
           </div>
         </div>
       </article>
@@ -270,12 +291,13 @@
   const Luna = document.querySelector("#american-luna")
   const Minsan = document.querySelector("#american-minsan")
   const Sakay = document.querySelector("#american-sakay")
+  const Balangiga = document.querySelector('#american-balangiga')
 
   const Goyo1 = document.querySelector("#american-goyo1")
   const Luna1 = document.querySelector("#american-luna1")
   const Minsan1 = document.querySelector("#american-minsan1")
   const Sakay1 = document.querySelector("#american-sakay1")
-
+  const Balangiga1 = document.querySelector('#american-balangiga1')
 
   function americanSort() {
     const AmericanValue = document.querySelector("#americanSelect").value
@@ -284,21 +306,26 @@
       Luna.style.display = "block"
       Minsan.style.display = "block"
       Sakay.style.display = "block"
+      Balangiga.style.display = "block"
 
       Goyo1.style.display = "none"
       Luna1.style.display = "none"
       Minsan1.style.display = "none"
       Sakay1.style.display = "none"
+      Balangiga1.style.display = "none"
     } else {
+      console.log('works')
       Goyo1.style.display = "block"
       Luna1.style.display = "block"
       Minsan1.style.display = "block"
       Sakay1.style.display = "block"
+      Balangiga1.style.display = "block"
 
       Goyo.style.display = "none"
       Luna.style.display = "none"
       Minsan.style.display = "none"
       Sakay.style.display = "none"
+      Balangiga.style.display = "none"
     }
   }
   </script>

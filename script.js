@@ -91,3 +91,7 @@ function browsePreviousHR() {
   hrPreviousButton.style.display = "none";
   browseGridHR.style.gridTemplateColumns = "1fr 1fr 1fr auto";
 }
+
+function comingSoon() {
+  alert('Coming Soon')
+}
