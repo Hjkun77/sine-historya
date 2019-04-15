@@ -82,6 +82,24 @@
 
   <section id="highlight-american">
     <div class="grid all-wrapper-x2">
+      <article id="american-larawan">
+        <div class="card">
+          <a href="film-in-focus-lawaran.html"><img class="card-img" src="assets/movies/larawan.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-lawaran.html">Ang Larawan</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Loy Arcenas</p>
+            <p class="card-info">2017 | 2 hr 4 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>family dynamics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
       <article id="american-balangiga">
         <div class="card">
           <a href="film-in-focus-balangiga.html"><img class="card-img" src="assets/movies/balangiga.jpg"></a>
@@ -233,6 +251,24 @@
         </div>
       </article>
 
+      <article id="american-larawan1">
+        <div class="card">
+          <a href="film-in-focus-lawaran.html"><img class="card-img" src="assets/movies/larawan.jpg"></a>
+          <p class="card-genre american">american colonial period</p>
+          <h3 class="card-title"><a href="film-in-focus-lawaran.html">Ang Larawan</a></h3>
+
+          <div class="bottom-card">
+            <p class="card-director">Loy Arcenas</p>
+            <p class="card-info">2017 | 2 hr 4 min</p>
+            <p class="card-rating">pg-13</p>
+            <p class="card-tags"><span>family dynamics</span></p>
+          </div>
+          <div class="bottom-right-card">
+            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
+          </div>
+        </div>
+      </article>
+
       <article id="american-balangiga1" style="display: none">
         <div class="card">
           <a href="film-in-focus-balangiga.html"><img class="card-img" src="assets/movies/balangiga.jpg"></a>
@@ -292,11 +328,13 @@
   const Minsan = document.querySelector("#american-minsan")
   const Sakay = document.querySelector("#american-sakay")
   const Balangiga = document.querySelector('#american-balangiga')
+  const Larawan = document.querySelector('#american-larawan')
 
   const Goyo1 = document.querySelector("#american-goyo1")
   const Luna1 = document.querySelector("#american-luna1")
   const Minsan1 = document.querySelector("#american-minsan1")
   const Sakay1 = document.querySelector("#american-sakay1")
+  const Larawan1 = document.querySelector('#american-larawan1')
   const Balangiga1 = document.querySelector('#american-balangiga1')
 
   function americanSort() {
@@ -307,20 +345,23 @@
       Minsan.style.display = "block"
       Sakay.style.display = "block"
       Balangiga.style.display = "block"
+      Larawan.style.display = 'block'
 
       Goyo1.style.display = "none"
       Luna1.style.display = "none"
       Minsan1.style.display = "none"
       Sakay1.style.display = "none"
       Balangiga1.style.display = "none"
+      Larawan1.style.display = 'block'
     } else {
-      console.log('works')
+      Larawan1.style.display = 'block'
       Goyo1.style.display = "block"
       Luna1.style.display = "block"
       Minsan1.style.display = "block"
       Sakay1.style.display = "block"
       Balangiga1.style.display = "block"
 
+      Larawan.style.display = 'none'
       Goyo.style.display = "none"
       Luna.style.display = "none"
       Minsan.style.display = "none"

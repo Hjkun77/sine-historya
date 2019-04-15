@@ -100,24 +100,6 @@
         </div>
       </article>
 
-      <article id="japanese-larawan">
-        <div class="card">
-          <a href="film-in-focus-lawaran.html"><img class="card-img" src="assets/movies/larawan.jpg"></a>
-          <p class="card-genre japanese">japanese occupation</p>
-          <h3 class="card-title"><a href="film-in-focus-lawaran.html">Ang Larawan</a></h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Loy Arcenas</p>
-            <p class="card-info">2017 | 2 hr 4 min</p>
-            <p class="card-rating">pg-13</p>
-            <p class="card-tags"><span>family dynamics</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
-          </div>
-        </div>
-      </article>
-
       <article id="japanese-oro">
         <div class="card">
           <a href="film-in-focus-oro.html"><img class="card-img" src="assets/movies/oro.jpg"></a>
@@ -209,24 +191,6 @@
         </div>
       </article>
 
-      <article id="japanese-larawan1" style="display: none">
-        <div class="card">
-          <a href="film-in-focus-lawaran.html"><img class="card-img" src="assets/movies/larawan.jpg"></a>
-          <p class="card-genre japanese">japanese occupation</p>
-          <h3 class="card-title"><a href="film-in-focus-lawaran.html">Ang Larawan</a></h3>
-
-          <div class="bottom-card">
-            <p class="card-director">Loy Arcenas</p>
-            <p class="card-info">2017 | 2 hr 4 min</p>
-            <p class="card-rating">pg-13</p>
-            <p class="card-tags"><span>family dynamics</span></p>
-          </div>
-          <div class="bottom-right-card">
-            <img class="card-stream" style="width: 50px;" src="assets/icons/cinema.png"/>
-          </div>
-        </div>
-      </article>
-
     </div>
   </section>
 
@@ -245,12 +209,10 @@
   <script>
   const JapaneseValue = document.querySelector('#japaneseSelect').value
   const Aishite = document.querySelector("#japanese-aishite");
-  const Larawan = document.querySelector("#japanese-larawan");
   const Oro = document.querySelector("#japanese-oro");
   const Tatlo = document.querySelector("#japanese-tatlo");
 
   const Aishite1 = document.querySelector("#japanese-aishite1");
-  const Larawan1 = document.querySelector("#japanese-larawan1");
   const Oro1 = document.querySelector("#japanese-oro1");
   const Tatlo1 = document.querySelector("#japanese-tatlo1");
 
@@ -258,22 +220,18 @@
     const JapaneseValue = document.querySelector('#japaneseSelect').value
     if (JapaneseValue === "1") {
       Aishite.style.display = "block"
-      Larawan.style.display = "block"
       Oro.style.display = "block"
       Tatlo.style.display = "block"
 
       Aishite1.style.display = "none"
-      Larawan1.style.display = "none"
       Oro1.style.display = "none"
       Tatlo1.style.display = "none"
     } else {
       Aishite1.style.display = "block"
-      Larawan1.style.display = "block"
       Oro1.style.display = "block"
       Tatlo1.style.display = "block"
 
       Aishite.style.display = "none"
-      Larawan.style.display = "none"
       Oro.style.display = "none"
       Tatlo.style.display = "none"
     }
